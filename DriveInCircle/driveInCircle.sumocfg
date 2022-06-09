@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="driveInCircle.net.xml"/>
+       <route-files value="driveInCircle.rou.xml"/>
+    </input>
+</configuration>

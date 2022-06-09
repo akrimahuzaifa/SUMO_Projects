@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="trafficLight.net.xml"/>
+       <route-files value="trafficLight.rou.xml"/>
+    </input>
+</configuration>

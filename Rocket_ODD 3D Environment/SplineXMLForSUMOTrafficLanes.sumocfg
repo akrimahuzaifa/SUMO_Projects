@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+     <input>
+         <net-file value="SplineXMLForSUMOTrafficLanes.net.xml"/> 		
+         <route-files value="SplineXMLForSUMOTrafficLanes.rou.xml"/>
+     </input>
+	 
+	  <time>
+  <begin value="0"/>
+  <end value="1000"/>
+  <step-length value="0.02"/> 
+ </time>
+ 
+ </configuration>

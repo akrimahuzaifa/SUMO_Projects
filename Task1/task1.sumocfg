@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="task1.net.xml"/>
+       <route-files value="task1.rou.xml"/>
+    </input>
+</configuration>

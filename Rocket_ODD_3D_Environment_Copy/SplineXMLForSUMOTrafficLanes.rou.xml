@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<trip id="0" depart="0.00" from="edgeId_Shape110_2_1_St" to="edgeId_Shape009_93_1_St" via="edgeId_Shape101_60_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape006_84_1_St edgeId_Shape007_91_1_St "/>
+	<trip id="1" depart="1.00" from="edgeId_Shape110_2_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape102_7_1_St edgeId_Shape083_19_1_St edgeId_Shape059_36_1_St "/>
+	<trip id="2" depart="2.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape115_132_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape132_125_1_St edgeId_Shape168_171_1_St edgeId_Shape176_273_1_St edgeId_Shape180_176_1_St edgeId_Shape163_3_1_St edgeId_Shape156_257_1_St edgeId_Shape140_282_1_St edgeId_Shape133_38_1_St edgeId_Shape128_297_1_St edgeId_Shape126_133_1_St "/>
+	<trip id="3" depart="3.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape097_65_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape146_278_1_St edgeId_Shape150_298_1_St edgeId_Shape139_296_1_St edgeId_Shape133_38_1_St edgeId_Shape116_114_1_St edgeId_Shape100_126_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape026_53_1_St edgeId_Shape027_51_1_St edgeId_Shape067_21_1_St edgeId_Shape087_72_1_St edgeId_Shape090_27_1_St "/>
+	<trip id="4" depart="4.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape177_258_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape174_275_1_St "/>
+	<trip id="5" depart="5.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape209_183_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St "/>
+	<trip id="6" depart="6.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape220_214_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St "/>
+	<trip id="7" depart="7.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape222_211_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="8" depart="8.00" from="edgeId_Shape106_4_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="9" depart="9.00" from="edgeId_Shape104_8_1_St" to="edgeId_Shape104_8_1_St"/>
+	<trip id="10" depart="10.00" from="edgeId_Shape105_10_1_St" to="edgeId_Shape105_10_1_St"/>
+	<trip id="11" depart="11.00" from="edgeId_Shape076_11_1_St" to="edgeId_Shape077_43_1_St"/>
+	<trip id="12" depart="12.00" from="edgeId_Shape022_12_1_St" to="edgeId_Shape077_43_1_St" via="edgeId_Shape023_48_1_St "/>
+	<trip id="13" depart="13.00" from="edgeId_Shape080_13_1_St" to="edgeId_Shape064_37_1_St" via="edgeId_Shape065_32_1_St "/>
+	<trip id="14" depart="14.00" from="edgeId_Shape080_13_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape078_15_1_St edgeId_Shape060_73_1_St "/>
+	<trip id="15" depart="15.00" from="edgeId_Shape081_16_1_St" to="edgeId_Shape035_109_1_St" via="edgeId_Shape079_18_1_St edgeId_Shape038_45_1_St "/>
+	<trip id="16" depart="16.00" from="edgeId_Shape050_23_1_St" to="edgeId_Shape232_286_1_St" via="edgeId_Shape086_110_1_St edgeId_Shape172_281_1_St "/>
+	<trip id="17" depart="17.00" from="edgeId_Shape050_23_1_St" to="edgeId_Shape111_118_1_St" via="edgeId_Shape085_25_1_St edgeId_Shape089_29_1_St edgeId_Shape093_1_1_St "/>
+	<trip id="18" depart="18.00" from="edgeId_Shape050_23_1_St" to="edgeId_Shape113_123_1_St" via="edgeId_Shape085_25_1_St edgeId_Shape088_26_1_St edgeId_Shape094_63_1_St "/>
+	<trip id="19" depart="19.00" from="edgeId_Shape050_23_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape085_25_1_St edgeId_Shape088_26_1_St edgeId_Shape095_5_1_St edgeId_Shape107_64_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="20" depart="20.00" from="edgeId_Shape049_30_1_St" to="edgeId_Shape072_75_1_St" via="edgeId_Shape069_111_1_St "/>
+	<trip id="21" depart="21.00" from="edgeId_Shape049_30_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape068_69_1_St edgeId_Shape060_73_1_St "/>
+	<trip id="22" depart="22.00" from="edgeId_Shape063_31_1_St" to="edgeId_Shape043_112_1_St" via="edgeId_Shape044_41_1_St "/>
+	<trip id="23" depart="23.00" from="edgeId_Shape063_31_1_St" to="edgeId_Shape035_109_1_St" via="edgeId_Shape044_41_1_St edgeId_Shape036_100_1_St "/>
+	<trip id="24" depart="24.00" from="edgeId_Shape045_33_1_St" to="edgeId_Shape075_71_1_St" via="edgeId_Shape047_99_1_St edgeId_Shape061_95_1_St edgeId_Shape066_14_1_St "/>
+	<trip id="25" depart="25.00" from="edgeId_Shape045_33_1_St" to="edgeId_Shape246_207_1_St" via="edgeId_Shape046_24_1_St edgeId_Shape092_105_1_St edgeId_Shape121_117_1_St edgeId_Shape124_128_1_St "/>
+	<trip id="26" depart="26.00" from="edgeId_Shape045_33_1_St" to="edgeId_Shape225_280_1_St" via="edgeId_Shape046_24_1_St edgeId_Shape092_105_1_St edgeId_Shape122_113_1_St edgeId_Shape130_121_1_St edgeId_Shape152_260_1_St "/>
+	<trip id="27" depart="27.00" from="edgeId_Shape045_33_1_St" to="edgeId_Shape253_217_1_St" via="edgeId_Shape046_24_1_St edgeId_Shape092_105_1_St edgeId_Shape122_113_1_St edgeId_Shape130_121_1_St edgeId_Shape151_198_1_St edgeId_Shape172_281_1_St edgeId_Shape231_252_1_St "/>
+	<trip id="28" depart="28.00" from="edgeId_Shape045_33_1_St" to="edgeId_Shape254_208_1_St" via="edgeId_Shape046_24_1_St edgeId_Shape092_105_1_St edgeId_Shape122_113_1_St edgeId_Shape130_121_1_St edgeId_Shape151_198_1_St edgeId_Shape172_281_1_St edgeId_Shape231_252_1_St "/>
+	<trip id="29" depart="29.00" from="edgeId_Shape017_39_1_St" to="edgeId_Shape033_57_1_St" via="edgeId_Shape014_92_1_St edgeId_Shape016_90_1_St edgeId_Shape032_87_1_St "/>
+	<trip id="30" depart="30.00" from="edgeId_Shape017_39_1_St" to="edgeId_Shape072_75_1_St" via="edgeId_Shape018_85_1_St edgeId_Shape024_54_1_St edgeId_Shape070_74_1_St "/>
+	<trip id="31" depart="31.00" from="edgeId_Shape017_39_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape018_85_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="32" depart="32.00" from="edgeId_Shape021_40_1_St" to="edgeId_Shape077_43_1_St" via="edgeId_Shape023_48_1_St "/>
+	<trip id="33" depart="33.00" from="edgeId_Shape037_42_1_St" to="edgeId_Shape035_109_1_St"/>
+	<trip id="34" depart="34.00" from="edgeId_Shape013_46_1_St" to="edgeId_Shape033_57_1_St" via="edgeId_Shape012_89_1_St edgeId_Shape031_79_1_St "/>
+	<trip id="35" depart="35.00" from="edgeId_Shape013_46_1_St" to="edgeId_Shape030_55_1_St" via="edgeId_Shape012_89_1_St "/>
+	<trip id="36" depart="36.00" from="edgeId_Shape042_47_1_St" to="edgeId_Shape033_57_1_St" via="edgeId_Shape015_104_1_St edgeId_Shape016_90_1_St edgeId_Shape032_87_1_St "/>
+	<trip id="37" depart="37.00" from="edgeId_Shape042_47_1_St" to="edgeId_Shape135_300_1_St" via="edgeId_Shape025_56_1_St edgeId_Shape027_51_1_St edgeId_Shape067_21_1_St edgeId_Shape087_72_1_St edgeId_Shape091_22_1_St edgeId_Shape118_122_1_St "/>
+	<trip id="38" depart="38.00" from="edgeId_Shape042_47_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape025_56_1_St edgeId_Shape027_51_1_St edgeId_Shape067_21_1_St edgeId_Shape087_72_1_St edgeId_Shape091_22_1_St edgeId_Shape118_122_1_St edgeId_Shape134_270_1_St edgeId_Shape157_279_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="39" depart="39.00" from="edgeId_Shape020_49_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="40" depart="40.00" from="edgeId_Shape039_52_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="41" depart="41.00" from="edgeId_Shape034_58_1_St" to="edgeId_Shape034_58_1_St"/>
+	<trip id="42" depart="42.00" from="edgeId_Shape098_61_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape099_66_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape028_50_1_St edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="43" depart="43.00" from="edgeId_Shape098_61_1_St" to="edgeId_Shape097_65_1_St" via="edgeId_Shape096_59_1_St "/>
+	<trip id="44" depart="44.00" from="edgeId_Shape112_62_1_St" to="edgeId_Shape111_118_1_St"/>
+	<trip id="45" depart="45.00" from="edgeId_Shape074_68_1_St" to="edgeId_Shape073_76_1_St"/>
+	<trip id="46" depart="46.00" from="edgeId_Shape001_77_1_St" to="edgeId_Shape002_82_1_St"/>
+	<trip id="47" depart="47.00" from="edgeId_Shape011_78_1_St" to="edgeId_Shape009_93_1_St" via="edgeId_Shape008_88_1_St "/>
+	<trip id="48" depart="48.00" from="edgeId_Shape011_78_1_St" to="edgeId_Shape030_55_1_St" via="edgeId_Shape010_81_1_St edgeId_Shape012_89_1_St "/>
+	<trip id="49" depart="49.00" from="edgeId_Shape004_80_1_St" to="edgeId_Shape002_82_1_St" via="edgeId_Shape003_86_1_St "/>
+	<trip id="50" depart="50.00" from="edgeId_Shape048_96_1_St" to="edgeId_Shape162_269_1_St"/>
+	<trip id="51" depart="51.00" from="edgeId_Shape251_97_1_St" to="edgeId_Shape053_285_1_St" via="edgeId_Shape250_219_1_St edgeId_Shape214_220_1_St "/>
+	<trip id="52" depart="52.00" from="edgeId_Shape251_97_1_St" to="edgeId_Shape052_180_1_St"/>
+	<trip id="53" depart="53.00" from="edgeId_Shape149_98_1_St" to="edgeId_Shape154_259_1_St" via="edgeId_Shape150_298_1_St "/>
+	<trip id="54" depart="54.00" from="edgeId_Shape051_102_1_St" to="edgeId_Shape051_102_1_St"/>
+	<trip id="55" depart="55.00" from="edgeId_Shape040_107_1_St" to="edgeId_Shape041_108_1_St"/>
+	<trip id="56" depart="56.00" from="edgeId_Shape125_115_1_St" to="edgeId_Shape115_132_1_St"/>
+	<trip id="57" depart="57.00" from="edgeId_Shape117_116_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape118_122_1_St edgeId_Shape134_270_1_St edgeId_Shape157_279_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="58" depart="58.00" from="edgeId_Shape114_119_1_St" to="edgeId_Shape113_123_1_St"/>
+	<trip id="59" depart="59.00" from="edgeId_Shape127_130_1_St" to="edgeId_Shape115_132_1_St"/>
+	<trip id="60" depart="60.00" from="edgeId_Shape281_136_1_St" to="edgeId_Shape282_145_1_St"/>
+	<trip id="61" depart="61.00" from="edgeId_Shape299_138_1_St" to="edgeId_Shape268_263_1_St" via="edgeId_Shape271_242_1_St "/>
+	<trip id="62" depart="62.00" from="edgeId_Shape299_138_1_St" to="edgeId_Shape298_241_1_St" via="edgeId_Shape297_149_1_St "/>
+	<trip id="63" depart="63.00" from="edgeId_Shape284_139_1_St" to="edgeId_Shape263_265_1_St" via="edgeId_Shape273_148_1_St edgeId_Shape269_150_1_St edgeId_Shape264_244_1_St "/>
+	<trip id="64" depart="64.00" from="edgeId_Shape284_139_1_St" to="edgeId_Shape285_227_1_St" via="edgeId_Shape283_137_1_St "/>
+	<trip id="65" depart="65.00" from="edgeId_Shape300_141_1_St" to="edgeId_Shape261_233_1_St" via="edgeId_Shape266_142_1_St "/>
+	<trip id="66" depart="66.00" from="edgeId_Shape300_141_1_St" to="edgeId_Shape263_265_1_St" via="edgeId_Shape266_142_1_St edgeId_Shape262_146_1_St "/>
+	<trip id="67" depart="67.00" from="edgeId_Shape259_143_1_St" to="edgeId_Shape259_143_1_St"/>
+	<trip id="68" depart="68.00" from="edgeId_Shape276_144_1_St" to="edgeId_Shape282_145_1_St" via="edgeId_Shape277_231_1_St edgeId_Shape279_140_1_St "/>
+	<trip id="69" depart="69.00" from="edgeId_Shape276_144_1_St" to="edgeId_Shape280_232_1_St" via="edgeId_Shape278_135_1_St "/>
+	<trip id="70" depart="70.00" from="edgeId_Shape275_151_1_St" to="edgeId_Shape274_235_1_St"/>
+	<trip id="71" depart="71.00" from="edgeId_Shape275_151_1_St" to="edgeId_Shape268_263_1_St" via="edgeId_Shape272_230_1_St "/>
+	<trip id="72" depart="72.00" from="edgeId_Shape227_152_1_St" to="edgeId_Shape166_256_1_St" via="edgeId_Shape213_224_1_St edgeId_Shape202_186_1_St edgeId_Shape184_192_1_St edgeId_Shape167_247_1_St "/>
+	<trip id="73" depart="73.00" from="edgeId_Shape227_152_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape213_224_1_St edgeId_Shape201_162_1_St edgeId_Shape195_163_1_St edgeId_Shape193_185_1_St edgeId_Shape191_190_1_St "/>
+	<trip id="74" depart="74.00" from="edgeId_Shape227_152_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape213_224_1_St edgeId_Shape203_153_1_St edgeId_Shape190_166_1_St edgeId_Shape191_190_1_St "/>
+	<trip id="75" depart="75.00" from="edgeId_Shape212_154_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="76" depart="76.00" from="edgeId_Shape224_156_1_St" to="edgeId_Shape055_101_1_St" via="edgeId_Shape207_213_1_St edgeId_Shape169_28_1_St edgeId_Shape137_294_1_St edgeId_Shape119_299_1_St edgeId_Shape082_131_1_St "/>
+	<trip id="77" depart="77.00" from="edgeId_Shape224_156_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape207_213_1_St edgeId_Shape169_28_1_St edgeId_Shape084_271_1_St edgeId_Shape059_36_1_St "/>
+	<trip id="78" depart="78.00" from="edgeId_Shape217_158_1_St" to="edgeId_Shape218_218_1_St"/>
+	<trip id="79" depart="79.00" from="edgeId_Shape217_158_1_St" to="edgeId_Shape205_187_1_St" via="edgeId_Shape216_195_1_St edgeId_Shape204_179_1_St "/>
+	<trip id="80" depart="80.00" from="edgeId_Shape181_159_1_St" to="edgeId_Shape177_258_1_St" via="edgeId_Shape178_175_1_St "/>
+	<trip id="81" depart="81.00" from="edgeId_Shape179_160_1_St" to="edgeId_Shape179_160_1_St"/>
+	<trip id="82" depart="82.00" from="edgeId_Shape198_161_1_St" to="edgeId_Shape205_187_1_St"/>
+	<trip id="83" depart="83.00" from="edgeId_Shape197_164_1_St" to="edgeId_Shape199_191_1_St"/>
+	<trip id="84" depart="84.00" from="edgeId_Shape197_164_1_St" to="edgeId_Shape200_181_1_St"/>
+	<trip id="85" depart="85.00" from="edgeId_Shape196_165_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape193_185_1_St edgeId_Shape191_190_1_St "/>
+	<trip id="86" depart="86.00" from="edgeId_Shape189_167_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="87" depart="87.00" from="edgeId_Shape183_168_1_St" to="edgeId_Shape159_255_1_St" via="edgeId_Shape167_247_1_St edgeId_Shape165_20_1_St edgeId_Shape160_253_1_St "/>
+	<trip id="88" depart="88.00" from="edgeId_Shape183_168_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape167_247_1_St edgeId_Shape165_20_1_St edgeId_Shape160_253_1_St edgeId_Shape138_249_1_St edgeId_Shape133_38_1_St edgeId_Shape116_114_1_St edgeId_Shape100_126_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape028_50_1_St edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="89" depart="89.00" from="edgeId_Shape188_169_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="90" depart="90.00" from="edgeId_Shape194_170_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape185_189_1_St edgeId_Shape167_247_1_St edgeId_Shape165_20_1_St edgeId_Shape160_253_1_St edgeId_Shape138_249_1_St edgeId_Shape133_38_1_St edgeId_Shape116_114_1_St edgeId_Shape100_126_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape028_50_1_St edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="91" depart="91.00" from="edgeId_Shape186_174_1_St" to="edgeId_Shape246_207_1_St"/>
+	<trip id="92" depart="92.00" from="edgeId_Shape215_178_1_St" to="edgeId_Shape205_187_1_St" via="edgeId_Shape204_179_1_St "/>
+	<trip id="93" depart="93.00" from="edgeId_Shape182_193_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape163_3_1_St edgeId_Shape123_248_1_St edgeId_Shape103_129_1_St edgeId_Shape083_19_1_St edgeId_Shape059_36_1_St "/>
+	<trip id="94" depart="94.00" from="edgeId_Shape182_193_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape163_3_1_St edgeId_Shape123_248_1_St edgeId_Shape109_9_1_St edgeId_Shape108_6_1_St edgeId_Shape131_124_1_St edgeId_Shape147_276_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="95" depart="95.00" from="edgeId_Shape223_194_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape207_213_1_St edgeId_Shape169_28_1_St edgeId_Shape084_271_1_St edgeId_Shape059_36_1_St "/>
+	<trip id="96" depart="96.00" from="edgeId_Shape258_196_1_St" to="edgeId_Shape258_196_1_St"/>
+	<trip id="97" depart="97.00" from="edgeId_Shape257_197_1_St" to="edgeId_Shape257_197_1_St"/>
+	<trip id="98" depart="98.00" from="edgeId_Shape256_199_1_St" to="edgeId_Shape255_293_1_St"/>
+	<trip id="99" depart="99.00" from="edgeId_Shape234_200_1_St" to="edgeId_Shape238_292_1_St" via="edgeId_Shape235_291_1_St "/>
+	<trip id="100" depart="100.00" from="edgeId_Shape234_200_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape235_291_1_St edgeId_Shape237_215_1_St "/>
+	<trip id="101" depart="101.00" from="edgeId_Shape249_205_1_St" to="edgeId_Shape054_94_1_St" via="edgeId_Shape214_220_1_St edgeId_Shape208_184_1_St edgeId_Shape169_28_1_St edgeId_Shape084_271_1_St edgeId_Shape059_36_1_St "/>
+	<trip id="102" depart="102.00" from="edgeId_Shape236_206_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape235_291_1_St edgeId_Shape237_215_1_St "/>
+	<trip id="103" depart="103.00" from="edgeId_Shape247_209_1_St" to="edgeId_Shape248_225_1_St"/>
+	<trip id="104" depart="104.00" from="edgeId_Shape247_209_1_St" to="edgeId_Shape239_212_1_St" via="edgeId_Shape233_127_1_St edgeId_Shape228_290_1_St edgeId_Shape213_224_1_St edgeId_Shape203_153_1_St edgeId_Shape190_166_1_St edgeId_Shape191_190_1_St "/>
+	<trip id="105" depart="105.00" from="edgeId_Shape247_209_1_St" to="edgeId_Shape056_106_1_St" via="edgeId_Shape233_127_1_St edgeId_Shape120_223_1_St edgeId_Shape082_131_1_St edgeId_Shape058_35_1_St "/>
+	<trip id="106" depart="106.00" from="edgeId_Shape240_210_1_St" to="edgeId_Shape240_210_1_St"/>
+	<trip id="107" depart="107.00" from="edgeId_Shape252_216_1_St" to="edgeId_Shape245_289_1_St" via="edgeId_Shape244_203_1_St "/>
+	<trip id="108" depart="108.00" from="edgeId_Shape252_216_1_St" to="edgeId_Shape056_106_1_St" via="edgeId_Shape230_157_1_St edgeId_Shape206_288_1_St edgeId_Shape170_274_1_St edgeId_Shape136_17_1_St edgeId_Shape119_299_1_St edgeId_Shape082_131_1_St edgeId_Shape058_35_1_St "/>
+	<trip id="109" depart="109.00" from="edgeId_Shape252_216_1_St" to="edgeId_Shape056_106_1_St" via="edgeId_Shape230_157_1_St edgeId_Shape206_288_1_St edgeId_Shape171_251_1_St edgeId_Shape136_17_1_St edgeId_Shape119_299_1_St edgeId_Shape082_131_1_St edgeId_Shape058_35_1_St "/>
+	<trip id="110" depart="110.00" from="edgeId_Shape241_226_1_St" to="edgeId_Shape245_289_1_St" via="edgeId_Shape242_287_1_St edgeId_Shape243_221_1_St "/>
+	<trip id="111" depart="111.00" from="edgeId_Shape241_226_1_St" to="edgeId_Shape056_106_1_St" via="edgeId_Shape229_222_1_St edgeId_Shape206_288_1_St edgeId_Shape171_251_1_St edgeId_Shape136_17_1_St edgeId_Shape119_299_1_St edgeId_Shape082_131_1_St edgeId_Shape058_35_1_St "/>
+	<trip id="112" depart="112.00" from="edgeId_Shape288_228_1_St" to="edgeId_Shape287_262_1_St"/>
+	<trip id="113" depart="113.00" from="edgeId_Shape288_228_1_St" to="edgeId_Shape293_243_1_St" via="edgeId_Shape286_229_1_St edgeId_Shape289_236_1_St edgeId_Shape291_264_1_St "/>
+	<trip id="114" depart="114.00" from="edgeId_Shape288_228_1_St" to="edgeId_Shape298_241_1_St" via="edgeId_Shape286_229_1_St edgeId_Shape289_236_1_St edgeId_Shape291_264_1_St edgeId_Shape292_237_1_St edgeId_Shape294_238_1_St edgeId_Shape295_240_1_St "/>
+	<trip id="115" depart="115.00" from="edgeId_Shape290_234_1_St" to="edgeId_Shape298_241_1_St" via="edgeId_Shape291_264_1_St edgeId_Shape292_237_1_St edgeId_Shape294_238_1_St edgeId_Shape295_240_1_St "/>
+	<trip id="116" depart="116.00" from="edgeId_Shape296_239_1_St" to="edgeId_Shape298_241_1_St" via="edgeId_Shape295_240_1_St "/>
+	<trip id="117" depart="117.00" from="edgeId_Shape260_245_1_St" to="edgeId_Shape260_245_1_St"/>
+	<trip id="118" depart="118.00" from="edgeId_Shape158_246_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape157_279_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="119" depart="119.00" from="edgeId_Shape164_250_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape160_253_1_St edgeId_Shape138_249_1_St edgeId_Shape133_38_1_St edgeId_Shape116_114_1_St edgeId_Shape100_126_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape028_50_1_St edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="120" depart="120.00" from="edgeId_Shape270_261_1_St" to="edgeId_Shape263_265_1_St" via="edgeId_Shape264_244_1_St "/>
+	<trip id="121" depart="121.00" from="edgeId_Shape144_266_1_St" to="edgeId_Shape143_284_1_St"/>
+	<trip id="122" depart="122.00" from="edgeId_Shape144_266_1_St" to="edgeId_Shape221_202_1_St" via="edgeId_Shape145_277_1_St edgeId_Shape148_173_1_St edgeId_Shape161_283_1_St edgeId_Shape173_188_1_St edgeId_Shape187_254_1_St edgeId_Shape210_155_1_St edgeId_Shape211_182_1_St edgeId_Shape219_201_1_St "/>
+	<trip id="123" depart="123.00" from="edgeId_Shape141_267_1_St" to="edgeId_Shape073_76_1_St" via="edgeId_Shape133_38_1_St edgeId_Shape116_114_1_St edgeId_Shape100_126_1_St edgeId_Shape057_67_1_St edgeId_Shape029_44_1_St edgeId_Shape028_50_1_St edgeId_Shape019_103_1_St edgeId_Shape024_54_1_St edgeId_Shape071_70_1_St "/>
+	<trip id="124" depart="124.00" from="edgeId_Shape153_268_1_St" to="edgeId_Shape155_272_1_St"/>
+	<trip id="125" depart="125.00" from="edgeId_Shape142_295_1_St" to="edgeId_Shape142_295_1_St"/>
+</routes>
