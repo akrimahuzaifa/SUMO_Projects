@@ -39,6 +39,9 @@ trips:
 	python randomTrips.py -n map.net.xml -r trailer_routes.rou.xml  -o trailer_trips.xml $(TRAILER_PARAMS)
 
 	@echo "\033[92m Creating unique IDs in route files \033[0m"
+	(Get-content bus_routes.rou.xml) | Foreach-Object {$_ -replace "^SourceRegexp$", "DestinationString"} | Set-Content file.txt
+
+	(Get-content bus_routes.rou.xml) | Foreach-Object {$_ -replace "^vehicle id=\$", /vehicle id=\"bus/g"} | Set-Content bus_routes.rou.xml
 
 	sed -i "s/vehicle id=\"/vehicle id=\"bus/g" bus_routes.rou.xml
 	sed -i "s/vehicle id=\"/vehicle id=\"truck/g" truck_routes.rou.xml

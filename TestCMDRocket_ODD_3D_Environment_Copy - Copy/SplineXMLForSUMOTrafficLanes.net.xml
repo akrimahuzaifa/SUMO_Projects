@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-06-07 13:01:35 by Eclipse SUMO netedit Version 1.13.0
+<!-- generated on 2022-06-09 12:26:13 by Eclipse SUMO netedit Version 1.13.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\TestCMDRocket_ODD_3D_Environment_Copy%20-%20Copy\SplineXMLForSUMOTrafficLanes.net.xml"/>
     </input>
 
     <output>
-        <output-file value="SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\TestCMDRocket_ODD_3D_Environment_Copy%20-%20Copy\SplineXMLForSUMOTrafficLanes.net.xml"/>
     </output>
 
     <processing>
@@ -976,32 +976,6 @@
         <lane id="edgeId_Shape300_141_1_St_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="18.06" length="779.55" shape="-3511.30,927.15,-0.26 -3511.27,922.15,-0.26 -3511.26,917.15,-0.27 -3511.25,912.15,-0.27 -3511.25,907.16,-0.27 -3511.26,902.16,-0.28 -3511.26,897.16,-0.28 -3511.28,892.16,-0.28 -3511.29,887.16,-0.28 -3511.30,882.16,-0.28 -3511.32,877.16,-0.28 -3511.34,872.16,-0.28 -3511.36,867.17,-0.28 -3511.38,862.17,-0.28 -3511.41,857.17,-0.28 -3511.45,852.17,-0.28 -3511.49,847.17,-0.28 -3511.56,842.17,-0.28 -3511.65,837.17,-0.28 -3511.77,832.18,-0.28 -3511.92,827.18,-0.28 -3512.09,822.18,-0.28 -3512.25,817.19,-0.28 -3512.40,812.19,-0.28 -3512.55,807.19,-0.28 -3512.71,802.19,-0.28 -3512.87,797.20,-0.28 -3513.03,792.20,-0.28 -3513.19,787.21,-0.28 -3513.35,782.21,-0.28 -3513.53,777.21,-0.28 -3513.71,772.22,-0.28 -3513.89,767.22,-0.28 -3514.06,762.22,-0.28 -3514.23,757.23,-0.28 -3514.38,752.23,-0.28 -3514.52,747.23,-0.28 -3514.66,742.24,-0.28 -3514.79,737.24,-0.28 -3514.92,732.24,-0.28 -3515.04,727.24,-0.28 -3515.14,722.25,-0.28 -3515.22,717.25,-0.28 -3515.27,712.25,-0.28 -3515.31,707.25,-0.28 -3515.35,702.25,-0.28 -3515.39,697.25,-0.28 -3515.45,692.25,-0.28 -3515.52,687.25,-0.28 -3515.59,682.25,-0.28 -3515.65,677.25,-0.28 -3515.69,672.26,-0.29 -3515.71,667.26,-0.29 -3515.71,662.26,-0.30 -3515.68,657.26,-0.31 -3515.65,652.26,-0.35 -3515.62,647.26,-0.38 -3515.60,642.26,-0.42 -3515.60,637.26,-0.46 -3515.60,632.26,-0.50 -3515.61,627.26,-0.55 -3515.62,622.26,-0.60 -3515.61,617.26,-0.66 -3515.58,612.26,-0.71 -3515.53,607.26,-0.77 -3515.46,602.26,-0.82 -3515.39,597.26,-0.88 -3515.34,592.27,-0.93 -3515.34,587.27,-0.99 -3515.36,582.27,-1.09 -3515.40,577.27,-1.20 -3515.45,572.27,-1.31 -3515.50,567.27,-1.43 -3515.55,562.27,-1.54 -3515.59,557.27,-1.65 -3515.61,552.27,-1.76 -3515.65,547.27,-1.88 -3515.72,542.27,-1.99 -3515.83,537.27,-2.10 -3515.98,532.28,-2.22 -3516.15,527.28,-2.33 -3516.36,522.28,-2.44 -3516.62,517.29,-2.56 -3516.94,512.30,-2.67 -3517.30,507.32,-2.78 -3517.71,502.33,-2.90 -3518.17,497.36,-3.01 -3518.69,492.38,-3.12 -3519.25,487.42,-3.23 -3519.85,482.45,-3.35 -3520.51,477.50,-3.46 -3521.22,472.55,-3.57 -3521.98,467.61,-3.69 -3522.78,462.67,-3.80 -3523.62,457.74,-3.91 -3524.49,452.82,-4.02 -3525.38,447.90,-4.14 -3526.30,442.99,-4.23 -3527.23,438.08,-4.32 -3528.18,433.17,-4.32 -3529.12,428.26,-4.32 -3530.09,423.35,-4.32 -3531.15,418.47,-4.32 -3532.32,413.61,-4.31 -3533.58,408.77,-4.29 -3534.91,403.95,-4.28 -3536.29,399.14,-4.28 -3537.69,394.35,-4.30 -3539.11,389.55,-4.32 -3540.55,384.77,-4.32 -3542.00,379.98,-4.32 -3543.45,375.20,-4.32 -3544.91,370.42,-4.32 -3546.39,365.64,-4.31 -3547.91,360.88,-4.31 -3549.47,356.13,-4.31 -3551.03,351.38,-4.31 -3552.57,346.62,-4.31 -3554.07,341.85,-4.31 -3555.54,337.08,-4.31 -3557.00,332.30,-4.28 -3558.45,327.51,-4.20 -3559.89,322.73,-4.11 -3561.33,317.94,-4.01 -3562.78,313.15,-3.93 -3564.22,308.37,-3.85 -3565.67,303.58,-3.77 -3567.13,298.80,-3.70 -3568.61,294.03,-3.62 -3570.12,289.26,-3.54 -3571.64,284.50,-3.46 -3573.17,279.74,-3.39 -3574.70,274.98,-3.31 -3576.22,270.22,-3.23 -3577.70,265.44,-3.15 -3579.12,260.65,-3.07 -3580.43,255.82,-2.99 -3581.61,250.97,-2.91 -3582.79,246.11,-2.84 -3583.98,241.25,-2.76 -3585.16,236.40,-2.68 -3586.33,231.54,-2.60 -3587.49,226.67,-2.52 -3588.61,221.80,-2.43 -3589.69,216.92,-2.35 -3590.70,212.02,-2.27 -3591.64,207.11,-2.19 -3592.50,202.19,-2.11 -3593.29,197.25,-2.03 -3594.04,192.31,-1.95 -3594.79,187.37,-1.86 -3595.51,182.42,-1.78 -3596.21,177.47,-1.70 -3596.88,172.52,-1.62 -3597.53,167.56,-1.53 -3598.17,162.60,-1.45 -3598.73,158.03,-1.38"/>
     </edge>
 
-    <tlLogic id="JuctionFrom_Shape016_90_1_St-JuctionTo_Shape014_92_1_Ed-JuctionTo_Shape015_104_1_Ed" type="static" programID="0" offset="0">
-        <phase duration="41" state="Gr"/>
-        <phase duration="4"  state="yr"/>
-        <phase duration="41" state="rG"/>
-        <phase duration="4"  state="ry"/>
-    </tlLogic>
-    <tlLogic id="JuctionTo_Shape013_46_1_Ed-JuctionTo_Shape010_81_1_Ed-JuctionFrom_Shape012_89_1_St" type="static" programID="0" offset="0">
-        <phase duration="41" state="Gr"/>
-        <phase duration="4"  state="yr"/>
-        <phase duration="41" state="rG"/>
-        <phase duration="4"  state="ry"/>
-    </tlLogic>
-    <tlLogic id="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" type="static" programID="0" offset="0">
-        <phase duration="26" state="rrG"/>
-        <phase duration="4"  state="rry"/>
-        <phase duration="26" state="Grr"/>
-        <phase duration="4"  state="yrr"/>
-        <phase duration="26" state="rGr"/>
-        <phase duration="4"  state="ryr"/>
-    </tlLogic>
-    <tlLogic id="JuctionTo_Shape022_12_1_Ed-JuctionTo_Shape021_40_1_Ed-JuctionFrom_Shape023_48_1_St" type="static" programID="0" offset="0">
-        <phase duration="41" state="Gr"/>
-        <phase duration="4"  state="yr"/>
-        <phase duration="41" state="rG"/>
-        <phase duration="4"  state="ry"/>
-    </tlLogic>
     <tlLogic id="JuctionTo_Shape037_42_1_Ed-JuctionTo_Shape038_45_1_Ed-JuctionTo_Shape036_100_1_Ed-JuctionFrom_Shape035_109_1_St" type="static" programID="0" offset="0">
         <phase duration="26" state="rGr"/>
         <phase duration="4"  state="ryr"/>
@@ -1058,6 +1032,26 @@
         <phase duration="26" state="rGr"/>
         <phase duration="4"  state="ryr"/>
     </tlLogic>
+    <tlLogic id="all_in_one" type="static" programID="0" offset="0">
+        <phase duration="6"  state="Grrrrrrrr"/>
+        <phase duration="4"  state="yrrrrrrrr"/>
+        <phase duration="6"  state="rGrrrrrrr"/>
+        <phase duration="4"  state="ryrrrrrrr"/>
+        <phase duration="6"  state="rrGrrrrrr"/>
+        <phase duration="4"  state="rryrrrrrr"/>
+        <phase duration="6"  state="rrrGrrrrr"/>
+        <phase duration="4"  state="rrryrrrrr"/>
+        <phase duration="6"  state="rrrrGrrrr"/>
+        <phase duration="4"  state="rrrryrrrr"/>
+        <phase duration="6"  state="rrrrrGrrr"/>
+        <phase duration="4"  state="rrrrryrrr"/>
+        <phase duration="6"  state="rrrrrrGrr"/>
+        <phase duration="4"  state="rrrrrryrr"/>
+        <phase duration="6"  state="rrrrrrrGr"/>
+        <phase duration="4"  state="rrrrrrryr"/>
+        <phase duration="6"  state="rrrrrrrrG"/>
+        <phase duration="4"  state="rrrrrrrry"/>
+    </tlLogic>
 
     <junction id="JuctionFrom_Shape001_77_1_St" type="dead_end" x="3579.21" y="113.88" z="-25.03" incLanes="" intLanes="" shape="3579.19,112.28,-25.03 3579.23,115.48,-25.03"/>
     <junction id="JuctionFrom_Shape004_80_1_St" type="dead_end" x="3463.14" y="-34.44" z="-23.42" incLanes="" intLanes="" shape="3461.54,-34.42,-23.42 3464.74,-34.46,-23.42"/>
@@ -1067,7 +1061,7 @@
     </junction>
     <junction id="JuctionFrom_Shape011_78_1_St" type="dead_end" x="3579.04" y="97.32" z="-25.03" incLanes="" intLanes="" shape="3579.02,95.72,-25.03 3579.06,98.92,-25.03"/>
     <junction id="JuctionFrom_Shape013_46_1_St" type="dead_end" x="3439.39" y="154.31" z="-23.42" incLanes="" intLanes="" shape="3440.99,154.30,-23.42 3437.79,154.32,-23.42"/>
-    <junction id="JuctionFrom_Shape016_90_1_St-JuctionTo_Shape014_92_1_Ed-JuctionTo_Shape015_104_1_Ed" type="traffic_light" x="3434.61" y="88.29" z="-23.42" incLanes="edgeId_Shape014_92_1_St_0 edgeId_Shape015_104_1_St_0" intLanes="" shape="3433.38,98.07,-23.42 3436.57,97.95,-23.42 3436.66,97.23,-23.42 3436.79,97.09,-23.42 3436.98,97.10,-23.42 3437.23,97.25,-23.42 3437.55,97.54,-23.42 3440.69,96.21,-23.42 3439.08,94.50,-23.42 3437.90,93.14,-23.42 3437.07,91.89,-23.42 3436.56,90.51,-23.42 3436.29,88.78,-23.42 3436.20,86.47,-23.42 3433.00,86.48,-23.42">
+    <junction id="JuctionFrom_Shape016_90_1_St-JuctionTo_Shape014_92_1_Ed-JuctionTo_Shape015_104_1_Ed" type="traffic_light" x="3434.61" y="88.29" z="-23.42" incLanes="edgeId_Shape014_92_1_St_0 edgeId_Shape015_104_1_St_0" intLanes="" shape="3433.38,98.07,-23.42 3436.57,97.95,-23.42 3436.66,97.23,-23.42 3436.79,97.09,-23.42 3436.98,97.10,-23.42 3437.23,97.25,-23.42 3437.55,97.54,-23.42 3440.69,96.21,-23.42 3439.08,94.50,-23.42 3437.90,93.14,-23.42 3437.07,91.89,-23.42 3436.56,90.51,-23.42 3436.29,88.78,-23.42 3436.20,86.47,-23.42 3433.00,86.48,-23.42" name="group">
         <request index="0" response="00" foes="10"/>
         <request index="1" response="01" foes="01"/>
     </junction>
@@ -1336,7 +1330,7 @@
         <request index="0" response="00" foes="00"/>
         <request index="1" response="00" foes="00"/>
     </junction>
-    <junction id="JuctionTo_Shape013_46_1_Ed-JuctionTo_Shape010_81_1_Ed-JuctionFrom_Shape012_89_1_St" type="traffic_light" x="3437.65" y="88.38" z="-23.42" incLanes="edgeId_Shape013_46_1_St_0 edgeId_Shape010_81_1_St_0" intLanes="" shape="3436.28,94.65,-23.42 3439.48,94.53,-23.42 3439.57,93.81,-23.42 3439.71,93.66,-23.42 3439.92,93.64,-23.42 3440.20,93.77,-23.42 3440.53,94.04,-23.42 3443.09,92.03,-23.42 3440.95,89.85,-23.42 3440.21,88.87,-23.42 3439.67,87.95,-23.42 3439.35,87.10,-23.42 3439.25,86.33,-23.42 3436.05,86.33,-23.42">
+    <junction id="JuctionTo_Shape013_46_1_Ed-JuctionTo_Shape010_81_1_Ed-JuctionFrom_Shape012_89_1_St" type="traffic_light" x="3437.65" y="88.38" z="-23.42" incLanes="edgeId_Shape013_46_1_St_0 edgeId_Shape010_81_1_St_0" intLanes="" shape="3436.28,94.65,-23.42 3439.48,94.53,-23.42 3439.57,93.81,-23.42 3439.71,93.66,-23.42 3439.92,93.64,-23.42 3440.20,93.77,-23.42 3440.53,94.04,-23.42 3443.09,92.03,-23.42 3440.95,89.85,-23.42 3440.21,88.87,-23.42 3439.67,87.95,-23.42 3439.35,87.10,-23.42 3439.25,86.33,-23.42 3436.05,86.33,-23.42" name="group">
         <request index="0" response="00" foes="10"/>
         <request index="1" response="01" foes="01"/>
     </junction>
@@ -1344,12 +1338,12 @@
         <request index="0" response="00" foes="00"/>
         <request index="1" response="00" foes="00"/>
     </junction>
-    <junction id="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" type="traffic_light" x="3413.54" y="110.75" z="-23.44" incLanes="edgeId_Shape018_85_1_St_0 edgeId_Shape020_49_1_St_0 edgeId_Shape019_103_1_St_0" intLanes="" shape="3426.94,117.15,-23.44 3427.60,113.48,-23.44 3428.89,112.97,-23.44 3431.05,112.80,-23.44 3434.23,112.71,-23.44 3438.42,112.67,-23.44 3443.62,112.69,-23.44 3443.66,109.49,-23.44 3443.56,108.96,-23.44 3443.52,105.56,-23.44 3437.11,107.75,-23.44 3432.25,108.97,-23.44 3428.11,109.46,-23.44 3423.89,109.49,-23.44 3418.78,109.30,-23.44 3411.96,109.14,-23.44 3411.93,112.34,-23.44 3415.37,112.36,-23.44 3418.00,112.46,-23.44 3420.16,112.83,-23.44 3422.15,113.62,-23.44 3424.31,115.00,-23.44">
+    <junction id="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" type="traffic_light" x="3413.54" y="110.75" z="-23.44" incLanes="edgeId_Shape018_85_1_St_0 edgeId_Shape020_49_1_St_0 edgeId_Shape019_103_1_St_0" intLanes="" shape="3426.94,117.15,-23.44 3427.60,113.48,-23.44 3428.89,112.97,-23.44 3431.05,112.80,-23.44 3434.23,112.71,-23.44 3438.42,112.67,-23.44 3443.62,112.69,-23.44 3443.66,109.49,-23.44 3443.56,108.96,-23.44 3443.52,105.56,-23.44 3437.11,107.75,-23.44 3432.25,108.97,-23.44 3428.11,109.46,-23.44 3423.89,109.49,-23.44 3418.78,109.30,-23.44 3411.96,109.14,-23.44 3411.93,112.34,-23.44 3415.37,112.36,-23.44 3418.00,112.46,-23.44 3420.16,112.83,-23.44 3422.15,113.62,-23.44 3424.31,115.00,-23.44" name="group">
         <request index="0" response="000" foes="110"/>
         <request index="1" response="101" foes="101"/>
         <request index="2" response="001" foes="011"/>
     </junction>
-    <junction id="JuctionTo_Shape022_12_1_Ed-JuctionTo_Shape021_40_1_Ed-JuctionFrom_Shape023_48_1_St" type="traffic_light" x="3413.45" y="107.66" z="-23.44" incLanes="edgeId_Shape021_40_1_St_0 edgeId_Shape022_12_1_St_0" intLanes="" shape="3441.07,109.29,-23.44 3441.07,106.09,-23.44 3440.91,105.42,-23.44 3440.64,101.98,-23.44 3435.01,104.55,-23.44 3430.65,105.96,-23.44 3426.85,106.52,-23.44 3422.92,106.51,-23.44 3418.17,106.25,-23.44 3411.91,106.04,-23.44 3411.87,109.24,-23.44">
+    <junction id="JuctionTo_Shape022_12_1_Ed-JuctionTo_Shape021_40_1_Ed-JuctionFrom_Shape023_48_1_St" type="traffic_light" x="3413.45" y="107.66" z="-23.44" incLanes="edgeId_Shape021_40_1_St_0 edgeId_Shape022_12_1_St_0" intLanes="" shape="3441.07,109.29,-23.44 3441.07,106.09,-23.44 3440.91,105.42,-23.44 3440.64,101.98,-23.44 3435.01,104.55,-23.44 3430.65,105.96,-23.44 3426.85,106.52,-23.44 3422.92,106.51,-23.44 3418.17,106.25,-23.44 3411.91,106.04,-23.44 3411.87,109.24,-23.44" name="group">
         <request index="0" response="00" foes="10"/>
         <request index="1" response="01" foes="01"/>
     </junction>
@@ -1823,22 +1817,22 @@
     <connection from="edgeId_Shape006_84_1_St" to="edgeId_Shape005_83_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape007_91_1_St" to="edgeId_Shape009_93_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape008_88_1_St" to="edgeId_Shape009_93_1_St" fromLane="0" toLane="0" dir="s" state="m"/>
-    <connection from="edgeId_Shape010_81_1_St" to="edgeId_Shape012_89_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape013_46_1_Ed-JuctionTo_Shape010_81_1_Ed-JuctionFrom_Shape012_89_1_St" linkIndex="1" dir="s" state="o"/>
+    <connection from="edgeId_Shape010_81_1_St" to="edgeId_Shape012_89_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="3" dir="s" state="o"/>
     <connection from="edgeId_Shape011_78_1_St" to="edgeId_Shape010_81_1_St" fromLane="0" toLane="0" dir="R" state="M"/>
     <connection from="edgeId_Shape011_78_1_St" to="edgeId_Shape008_88_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape012_89_1_St" to="edgeId_Shape031_79_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape012_89_1_St" to="edgeId_Shape030_55_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from="edgeId_Shape013_46_1_St" to="edgeId_Shape012_89_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape013_46_1_Ed-JuctionTo_Shape010_81_1_Ed-JuctionFrom_Shape012_89_1_St" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape014_92_1_St" to="edgeId_Shape016_90_1_St" fromLane="0" toLane="0" tl="JuctionFrom_Shape016_90_1_St-JuctionTo_Shape014_92_1_Ed-JuctionTo_Shape015_104_1_Ed" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape015_104_1_St" to="edgeId_Shape016_90_1_St" fromLane="0" toLane="0" tl="JuctionFrom_Shape016_90_1_St-JuctionTo_Shape014_92_1_Ed-JuctionTo_Shape015_104_1_Ed" linkIndex="1" dir="s" state="o"/>
+    <connection from="edgeId_Shape013_46_1_St" to="edgeId_Shape012_89_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="2" dir="s" state="O"/>
+    <connection from="edgeId_Shape014_92_1_St" to="edgeId_Shape016_90_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="0" dir="s" state="O"/>
+    <connection from="edgeId_Shape015_104_1_St" to="edgeId_Shape016_90_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="1" dir="s" state="o"/>
     <connection from="edgeId_Shape016_90_1_St" to="edgeId_Shape032_87_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape017_39_1_St" to="edgeId_Shape018_85_1_St" fromLane="0" toLane="0" dir="R" state="M"/>
     <connection from="edgeId_Shape017_39_1_St" to="edgeId_Shape014_92_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from="edgeId_Shape018_85_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape019_103_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" linkIndex="2" dir="s" state="o"/>
-    <connection from="edgeId_Shape020_49_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape020_49_1_Ed-JuctionFrom_Shape024_54_1_St-JuctionTo_Shape018_85_1_Ed-JuctionTo_Shape019_103_1_Ed" linkIndex="1" dir="s" state="o"/>
-    <connection from="edgeId_Shape021_40_1_St" to="edgeId_Shape023_48_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape022_12_1_Ed-JuctionTo_Shape021_40_1_Ed-JuctionFrom_Shape023_48_1_St" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape022_12_1_St" to="edgeId_Shape023_48_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape022_12_1_Ed-JuctionTo_Shape021_40_1_Ed-JuctionFrom_Shape023_48_1_St" linkIndex="1" dir="s" state="o"/>
+    <connection from="edgeId_Shape018_85_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="4" dir="s" state="O"/>
+    <connection from="edgeId_Shape019_103_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="6" dir="s" state="o"/>
+    <connection from="edgeId_Shape020_49_1_St" to="edgeId_Shape024_54_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="5" dir="s" state="o"/>
+    <connection from="edgeId_Shape021_40_1_St" to="edgeId_Shape023_48_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="7" dir="s" state="O"/>
+    <connection from="edgeId_Shape022_12_1_St" to="edgeId_Shape023_48_1_St" fromLane="0" toLane="0" tl="all_in_one" linkIndex="8" dir="s" state="o"/>
     <connection from="edgeId_Shape023_48_1_St" to="edgeId_Shape077_43_1_St" fromLane="0" toLane="0" tl="JuctionTo_Shape076_11_1_Ed-JuctionFrom_Shape077_43_1_St-JuctionTo_Shape023_48_1_Ed" linkIndex="1" dir="s" state="o"/>
     <connection from="edgeId_Shape024_54_1_St" to="edgeId_Shape070_74_1_St" fromLane="0" toLane="0" dir="R" state="M"/>
     <connection from="edgeId_Shape024_54_1_St" to="edgeId_Shape071_70_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
