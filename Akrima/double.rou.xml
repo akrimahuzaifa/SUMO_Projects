@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-06-09 14:53:02 by Eclipse SUMO netedit Version 1.13.0
+<!-- generated on 2022-06-10 15:55:28 by Eclipse SUMO netedit Version 1.13.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E2" color="0,0,0,0"/>
+    <route id="r_1" edges="E1" color="0,0,0,0"/>
+    <route id="r_2" edges="E0" color="0,0,0,0"/>
+    <route id="r_3" edges="E2" color="0,0,0,0"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <trip id="t_0" depart="0.00" from="E0" to="E0"/>
     <trip id="t_1" depart="0.00" from="E1" to="E1"/>
-    <trip id="t_2" depart="0.00" departLane="1" departPos="0.32" departPosLat="left" arrivalLane="1" arrivalPos="0.00" arrivalPosLat="left" from="E2" to="E2"/>
-    <trip id="t_3" depart="0.00" departLane="0" departPos="7.60" departPosLat="left" arrivalLane="0" arrivalPos="0.00" arrivalPosLat="left" from="E2" to="E2"/>
+    <trip id="t_2" depart="0.00" from="E0" to="E0"/>
+    <trip id="t_3" depart="0.00" from="E2" to="E2"/>
+    <trip id="t_0" depart="1.00" departLane="1" departSpeed="max" from="E2" to="E2"/>
 </routes>

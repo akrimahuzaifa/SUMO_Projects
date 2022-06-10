@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-10 19:09:40 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="car" length="5.00" accel="3.5" decel="2.2" sigma="1.0"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="carflow0" type="car" begin="0.00" departPos="14.15" arrivalPos="0.00" color="green" from="E0" to="E32" end="0.00" number="5"/>
+    <flow id="carflow1" type="car" begin="0.00" departPos="4.64" arrivalPos="0.00" color="red" from="E1" to="E33" end="1.00" number="4"/>
+    <flow id="carflow2" type="car" begin="0.00" departPos="10.40" arrivalPos="0.00" color="blue" from="E2" to="E34" end="2.00" number="3"/>
+    <flow id="carflow3" type="car" begin="0.00" departPos="5.82" arrivalPos="0.00" color="green" from="E3" to="E35" end="3.00" number="2"/>
+    <flow id="carflow4" type="car" begin="0.00" color="green" from="E8" to="E40" end="0.00" number="5"/>
+    <flow id="carflow5" type="car" begin="0.00" color="red" from="E10" to="E41" end="1.00" number="4"/>
+    <flow id="carflow6" type="car" begin="0.00" color="blue" from="E12" to="E42" end="2.00" number="3"/>
+    <flow id="carflow7" type="car" begin="0.00" color="green" from="E14" to="E43" end="3.00" number="2"/>
+</routes>

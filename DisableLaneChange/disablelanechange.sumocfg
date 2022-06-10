@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="disablelanechange.net.xml"/>
+       <route-files value="disablelanechange.rou.xml"/>
+    </input>
+</configuration>
