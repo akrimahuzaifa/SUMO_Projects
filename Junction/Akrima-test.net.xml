@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-14 14:40:47 by Eclipse SUMO netedit Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\Junction\Akrima-test.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-38.64,59.96,118.05,61.64" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":cluster_J3_J4_0" function="internal">
+        <lane id=":cluster_J3_J4_0_0" index="0" speed="13.89" length="49.54" shape="11.08,59.93 60.59,58.36"/>
+    </edge>
+
+    <edge id="E1" from="J2" to="cluster_J3_J4" priority="-1" shape="-38.64,61.64 11.08,61.53">
+        <lane id="E1_0" index="0" speed="13.89" length="49.72" shape="-38.64,60.04 11.08,59.93"/>
+    </edge>
+    <edge id="E2" from="cluster_J3_J4" to="J5" priority="-1" shape="60.57,59.96 118.05,60.52">
+        <lane id="E2_0" index="0" speed="13.89" length="57.48" shape="60.59,58.36 118.07,58.92"/>
+    </edge>
+
+    <tlLogic id="cluster_J3_J4" type="static" programID="0" offset="0">
+        <phase duration="82" state="G"/>
+        <phase duration="3"  state="y"/>
+        <phase duration="5"  state="r"/>
+    </tlLogic>
+
+    <junction id="J2" type="dead_end" x="-38.64" y="61.64" incLanes="" intLanes="" shape="-38.64,61.64 -38.65,58.44"/>
+    <junction id="J5" type="dead_end" x="118.05" y="60.52" incLanes="E2_0" intLanes="" shape="118.09,57.32 118.05,60.52"/>
+    <junction id="cluster_J3_J4" type="traffic_light" x="35.83" y="60.74" incLanes="E1_0" intLanes=":cluster_J3_J4_0_0" shape="60.57,59.96 60.60,56.76 11.07,58.33 11.08,61.53">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <connection from="E1" to="E2" fromLane="0" toLane="0" via=":cluster_J3_J4_0_0" tl="cluster_J3_J4" linkIndex="0" dir="s" state="O"/>
+
+    <connection from=":cluster_J3_J4_0" to="E2" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

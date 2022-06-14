@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-14 16:58:30 by Eclipse SUMO netedit Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\Junction\ManualSsplineXMLForSUMOTrafficLanes.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\Junction\ManualSsplineXMLForSUMOTrafficLanes.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-93.76,-4.55,261.47,89.17" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":cluster_gneJ1_gneJ2_0" function="internal">
+        <lane id=":cluster_gneJ1_gneJ2_0_0" index="0" speed="13.89" length="106.20" shape="22.25,87.62 40.20,88.15 75.33,87.95 110.46,87.27 128.42,86.38"/>
+    </edge>
+
+    <edge id="E0" from="J0" to="J1" priority="-1">
+        <lane id="E0_0" index="0" speed="13.89" length="74.55" shape="127.86,56.66 83.98,-3.61"/>
+    </edge>
+    <edge id="gneE0" from="gneJ0" to="cluster_gneJ1_gneJ2" priority="-1" shape="-93.76,58.19 21.84,89.17">
+        <lane id="gneE0_0" index="0" speed="13.89" length="119.68" shape="-93.35,56.64 22.25,87.62"/>
+    </edge>
+    <edge id="gneE1" from="cluster_gneJ1_gneJ2" to="gneJ3" priority="-1" shape="128.81,87.93 261.47,54.48">
+        <lane id="gneE1_0" index="0" speed="13.89" length="136.81" shape="128.42,86.38 261.08,52.93"/>
+    </edge>
+
+    <tlLogic id="cluster_gneJ1_gneJ2" type="static" programID="0" offset="0">
+        <phase duration="82" state="G"/>
+        <phase duration="3"  state="y"/>
+        <phase duration="5"  state="r"/>
+    </tlLogic>
+
+    <junction id="J0" type="dead_end" x="129.15" y="55.72" incLanes="" intLanes="" shape="129.15,55.72 126.56,57.60"/>
+    <junction id="J1" type="dead_end" x="85.27" y="-4.55" incLanes="E0_0" intLanes="" shape="82.68,-2.67 85.27,-4.55"/>
+    <junction id="cluster_gneJ1_gneJ2" type="traffic_light" x="75.32" y="88.55" incLanes="gneE0_0" intLanes=":cluster_gneJ1_gneJ2_0_0" shape="128.81,87.93 128.03,84.83 113.48,87.49 95.30,89.31 75.31,90.17 55.33,89.99 37.17,88.66 22.67,86.08 21.84,89.17 36.46,91.75 54.92,93.08 75.29,93.27 95.67,92.41 114.15,90.59">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="gneJ0" type="dead_end" x="-93.76" y="58.19" incLanes="" intLanes="" shape="-93.76,58.19 -92.93,55.10"/>
+    <junction id="gneJ3" type="dead_end" x="261.47" y="54.48" incLanes="gneE1_0" intLanes="" shape="260.69,51.38 261.47,54.48"/>
+
+    <connection from="gneE0" to="gneE1" fromLane="0" toLane="0" via=":cluster_gneJ1_gneJ2_0_0" tl="cluster_gneJ1_gneJ2" linkIndex="0" dir="s" state="O"/>
+
+    <connection from=":cluster_gneJ1_gneJ2_0" to="gneE1" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>
