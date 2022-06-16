@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-06-15 17:52:40 by Eclipse SUMO netedit Version 1.12.0
+<!-- generated on 2022-06-16 12:37:55 by Eclipse SUMO netedit Version 1.13.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="C:\Users\SM%20Ali\Downloads\SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\LinkIndex\Opposite_Signal_Layout.net.xml"/>
     </input>
 
     <output>
-        <output-file value="C:\Users\SM%20Ali\Downloads\SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\LinkIndex\Opposite_Signal_Layout.net.xml"/>
     </output>
 
     <processing>
@@ -89,12 +89,10 @@
     </edge>
 
     <tlLogic id="Round001" type="static" programID="0" offset="0">
-        <phase duration="4"  state="gr"/>
-        <phase duration="4"  state="yr"/>
-        <phase duration="1"  state="rr"/>
-        <phase duration="4"  state="ry"/>
-        <phase duration="4"  state="rg"/>
-        <phase duration="4"  state="ry"/>
+        <phase duration="41" state="GG"/>
+        <phase duration="4"  state="yy"/>
+        <phase duration="41" state="GG"/>
+        <phase duration="4"  state="yy"/>
     </tlLogic>
 
     <junction id="JuctionFrom_Shape001_3_1_St" type="dead_end" x="202.30" y="-299.83" incLanes="" intLanes="" shape="201.19,-300.99 203.41,-298.67"/>
@@ -109,6 +107,6 @@
     <junction id="JuctionTo_Shape004_2_1_Ed" type="dead_end" x="218.30" y="-63.59" incLanes="edgeId_Shape004_2_1_St_0" intLanes="" shape="219.22,-64.90 217.38,-62.28"/>
 
     <connection from="edgeId_Shape001_3_1_St" to="edgeId_Shape002_4_1_St" fromLane="0" toLane="0" tl="Round001" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape003_1_1_St" to="edgeId_Shape004_2_1_St" fromLane="0" toLane="0" tl="Round001" linkIndex="0" dir="s" state="O"/>
+    <connection from="edgeId_Shape003_1_1_St" to="edgeId_Shape004_2_1_St" fromLane="0" toLane="0" tl="Round001" linkIndex="1" dir="s" state="O"/>
 
 </net>
