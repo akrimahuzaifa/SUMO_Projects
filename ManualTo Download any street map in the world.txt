@@ -1,11 +1,11 @@
-1. To download any street map from google or from real world hust go to:
+1. To download any street map from google or from real world just go to:
 	https://www.openstreetmap.org/
 and export the desire streets.
 2. It will download the file in .osm format then you need to convert this file through sumo command line
 
-3. Open sumo-cli in the .osm containing file with the following commands:
+3. Open sumo-cli in the .osm containing file folder with the following commands:
 	a.  cd C:\Program Files (x86)\Eclipse\Sumo\Projects\Rocket_ODD_3D_Environment_Copy
-	b. to convert osm file run: $netconvert --osm-files map.osm -o map.net.xml(YOUR .OSM FILE NAME with ext.)
+	b. to convert osm file run: $netconvert --osm-files map.osm(YOUR .OSM FILE NAME with ext.) -o map.net.xml(YouOutput file name)
 Done.
 
 4. Additionally: if you want to open that converted in netedit then run the command:
