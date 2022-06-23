@@ -1,0 +1,19 @@
+1. Run this command from this directory in CMD 
+"sumo-gui -c map.sumocfg --start --remote-port 4001 --step-length 0.02".
+2. Now run the player.
+
+Note: to scale traffic you can add --scale 2 parameter in command.
+i.e: "sumo-gui -c map.sumocfg --start --remote-port 4001 --step-length 0.02 --scale 2".
+
+
+
+
+sumo-gui --lanechange.duration 3 -c shaz.sumocfg --start --remote-port 4001 --step-length 0.02 --scale 2 --save-configuration shaz.sumocfg
+
+sumo-gui --lateral-resolution 0.2 -c map.sumocfg --start --remote-port 4001 --step-length 0.02
+
+
+
+
+
+sumo-gui -c map.sumocfg --start --remote-port 4001
