@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-24 12:18:44 by Eclipse SUMO GUI Version 1.10.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\no-internal-link.net.xml"/>
+        <route-files value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\no-internal-link.rou.xml"/>
+    </input>
+<!-- 
+    <time>
+        <step-length value="0.02"/>
+    </time> -->
+
+    <processing>
+        <no-internal-links value="false"/>
+        <scale value="1"/>
+        <lanechange.duration value="3"/>
+    </processing>
+
+    <!-- <traci_server>
+        <remote-port value="4001"/>
+    </traci_server>
+
+    <gui_only>
+        <start value="true"/>
+    </gui_only> -->
+
+</configuration>

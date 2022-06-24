@@ -1,0 +1,239 @@
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+<location netOffset="-274535.29,-4297431.43" convBoundary="0.00,0.00,33333.44,9481.87" origBoundary="-77.596256,38.797200,-77.215237,38.890060" projParameter="+proj=utm +zone=18 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+	<type id="highway.bridleway" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.bus_guideway" priority="1" numLanes="1" speed="27.78" allow="bus" oneway="1"/>
+    <type id="highway.cycleway" priority="1" numLanes="1" speed="8.33" allow="bicycle" oneway="0" width="1.00"/>
+    <type id="highway.footway" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.ford" priority="1" numLanes="1" speed="2.78" allow="army" oneway="0"/>
+    <type id="highway.living_street" priority="2" numLanes="1" speed="2.78" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.motorway" priority="14" numLanes="2" speed="39.44" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" oneway="1"/>
+    <type id="highway.motorway_link" priority="9" numLanes="1" speed="22.22" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" oneway="1"/>
+    <type id="highway.path" priority="1" numLanes="1" speed="2.78" allow="pedestrian bicycle" oneway="0" width="2.00"/>
+    <type id="highway.pedestrian" priority="1" numLanes="1" speed="2.78" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.primary" priority="12" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.primary_link" priority="7" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.raceway" priority="15" numLanes="2" speed="83.33" allow="vip" oneway="0"/>
+    <type id="highway.residential" priority="3" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.secondary" priority="11" numLanes="1" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.secondary_link" priority="6" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.service" priority="1" numLanes="1" speed="5.56" allow="pedestrian delivery bicycle" oneway="0"/>
+    <type id="highway.stairs" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.step" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.steps" priority="1" numLanes="1" speed="1.39" allow="pedestrian" oneway="1" width="2.00"/>
+    <type id="highway.tertiary" priority="10" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.tertiary_link" priority="5" numLanes="1" speed="22.22" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.track" priority="1" numLanes="1" speed="5.56" allow="pedestrian motorcycle moped bicycle" oneway="0"/>
+    <type id="highway.trunk" priority="13" numLanes="2" speed="27.78" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.trunk_link" priority="8" numLanes="1" speed="22.22" disallow="pedestrian bicycle tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.unclassified" priority="4" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.unsurfaced" priority="1" numLanes="1" speed="8.33" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="railway.highspeed" priority="21" numLanes="1" speed="69.44" allow="rail_fast" oneway="1"/>
+    <type id="railway.light_rail" priority="19" numLanes="1" speed="27.78" allow="rail_urban" oneway="1"/>
+    <type id="railway.preserved" priority="16" numLanes="1" speed="27.78" allow="rail" oneway="1"/>
+    <type id="railway.rail" priority="20" numLanes="1" speed="44.44" allow="rail" oneway="1"/>
+    <type id="railway.subway" priority="18" numLanes="1" speed="27.78" allow="rail_urban" oneway="1"/>
+    <type id="railway.tram" priority="17" numLanes="1" speed="13.89" allow="tram" oneway="1"/>
+	
+
+123 JuctionFrom_Shape007_1_1_St edgeId_Shape007_1_1_St
+456 JuctionTo_Shape007_1_1_Ed edgeId_Shape007_1_1_St
+[3519.2,114.5,-23.7] edgeId_Shape007_1_1_St
+789[3519.2,114.5,-23.7] JuctionFrom_Shape007_1_1_St
+1011[3472.1,115,-23.4] JuctionTo_Shape007_1_1_Ed
+
+123 JuctionFrom_Shape007_1_2_St edgeId_Shape007_1_2_St
+456 JuctionTo_Shape007_1_2_Ed edgeId_Shape007_1_2_St
+[3519.2,110.6,-23.7] edgeId_Shape007_1_2_St
+789[3519.2,110.6,-23.7] JuctionFrom_Shape007_1_2_St
+1011[3472,111.3,-23.4] JuctionTo_Shape007_1_2_Ed
+
+123 JuctionFrom_Shape007_1_3_St edgeId_Shape007_1_3_St
+456 JuctionTo_Shape007_1_3_Ed edgeId_Shape007_1_3_St
+[3519.2,107.2,-23.7] edgeId_Shape007_1_3_St
+789[3519.2,107.2,-23.7] JuctionFrom_Shape007_1_3_St
+1011[3472,107.7,-23.4] JuctionTo_Shape007_1_3_Ed
+
+123 JuctionFrom_Shape007_1_4_St edgeId_Shape007_1_4_St
+456 JuctionTo_Shape007_1_4_Ed edgeId_Shape007_1_4_St
+[3520,103.2,-23.7] edgeId_Shape007_1_4_St
+789[3520,103.2,-23.7] JuctionFrom_Shape007_1_4_St
+1011[3472.1,103.6,-23.4] JuctionTo_Shape007_1_4_Ed
+
+123 JuctionFrom_Shape007_1_5_St edgeId_Shape007_1_5_St
+456 JuctionTo_Shape007_1_5_Ed edgeId_Shape007_1_5_St
+[3517.7,97.9,-23.7] edgeId_Shape007_1_5_St
+789[3517.7,97.9,-23.7] JuctionFrom_Shape007_1_5_St
+1011[3472.3,99.8,-23.4] JuctionTo_Shape007_1_5_Ed
+
+123 JuctionFrom_Shape024_2_1_St edgeId_Shape024_2_1_St
+456 JuctionTo_Shape024_2_1_Ed edgeId_Shape024_2_1_St
+[3462.6,40.5,-23.4] edgeId_Shape024_2_1_St
+789[3462.6,40.5,-23.4] JuctionFrom_Shape024_2_1_St
+1011[3462.4,88.9,-23.4] JuctionTo_Shape024_2_1_Ed
+
+123 JuctionFrom_Shape024_2_2_St edgeId_Shape024_2_2_St
+456 JuctionTo_Shape024_2_2_Ed edgeId_Shape024_2_2_St
+[3459.4,40.5,-23.4] edgeId_Shape024_2_2_St
+789[3459.4,40.5,-23.4] JuctionFrom_Shape024_2_2_St
+1011[3459.2,89,-23.4] JuctionTo_Shape024_2_2_Ed
+
+123 JuctionFrom_Shape024_2_3_St edgeId_Shape024_2_3_St
+456 JuctionTo_Shape024_2_3_Ed edgeId_Shape024_2_3_St
+[3455.2,36,-23.4] edgeId_Shape024_2_3_St
+789[3455.2,36,-23.4] JuctionFrom_Shape024_2_3_St
+1011[3455.2,88.8,-23.4] JuctionTo_Shape024_2_3_Ed
+
+123 JuctionFrom_Shape024_2_4_St edgeId_Shape024_2_4_St
+456 JuctionTo_Shape024_2_4_Ed edgeId_Shape024_2_4_St
+[3451.4,36.1,-23.4] edgeId_Shape024_2_4_St
+789[3451.4,36.1,-23.4] JuctionFrom_Shape024_2_4_St
+1011[3451.4,88.8,-23.4] JuctionTo_Shape024_2_4_Ed
+
+123 JuctionFrom_Shape031_3_1_St edgeId_Shape031_3_1_St
+456 JuctionTo_Shape031_3_1_Ed edgeId_Shape031_3_1_St
+[3446.9,156.7,-23.4] edgeId_Shape031_3_1_St
+789[3446.9,156.7,-23.4] JuctionFrom_Shape031_3_1_St
+1011[3446.1,123.1,-23.4] JuctionTo_Shape031_3_1_Ed
+
+123 JuctionFrom_Shape031_3_2_St edgeId_Shape031_3_2_St
+456 JuctionTo_Shape031_3_2_Ed edgeId_Shape031_3_2_St
+[3443.1,153.8,-23.4] edgeId_Shape031_3_2_St
+789[3443.1,153.8,-23.4] JuctionFrom_Shape031_3_2_St
+1011[3442.7,123.1,-23.4] JuctionTo_Shape031_3_2_Ed
+
+123 JuctionFrom_Shape031_3_3_St edgeId_Shape031_3_3_St
+456 JuctionTo_Shape031_3_3_Ed edgeId_Shape031_3_3_St
+[3439.3,154.3,-23.4] edgeId_Shape031_3_3_St
+789[3439.3,154.3,-23.4] JuctionFrom_Shape031_3_3_St
+1011[3439.1,122.8,-23.4] JuctionTo_Shape031_3_3_Ed
+
+123 JuctionFrom_Shape031_3_4_St edgeId_Shape031_3_4_St
+456 JuctionTo_Shape031_3_4_Ed edgeId_Shape031_3_4_St
+[3435.1,150.9,-23.4] edgeId_Shape031_3_4_St
+789[3435.1,150.9,-23.4] JuctionFrom_Shape031_3_4_St
+1011[3435.6,122.9,-23.4] JuctionTo_Shape031_3_4_Ed
+
+123 JuctionFrom_Shape023_4_1_St edgeId_Shape023_4_1_St
+456 JuctionTo_Shape023_4_1_Ed edgeId_Shape023_4_1_St
+[3461.4,122.8,-23.4] edgeId_Shape023_4_1_St
+789[3461.4,122.8,-23.4] JuctionFrom_Shape023_4_1_St
+1011[3461,157,-23.4] JuctionTo_Shape023_4_1_Ed
+
+123 JuctionFrom_Shape023_4_2_St edgeId_Shape023_4_2_St
+456 JuctionTo_Shape023_4_2_Ed edgeId_Shape023_4_2_St
+[3458.6,122.4,-23.4] edgeId_Shape023_4_2_St
+789[3458.6,122.4,-23.4] JuctionFrom_Shape023_4_2_St
+1011[3458,156.4,-23.4] JuctionTo_Shape023_4_2_Ed
+
+123 JuctionFrom_Shape033_5_1_St edgeId_Shape033_5_1_St
+456 JuctionTo_Shape033_5_1_Ed edgeId_Shape033_5_1_St
+[3426.8,103.9,-23.4] edgeId_Shape033_5_1_St
+789[3426.8,103.9,-23.4] JuctionFrom_Shape033_5_1_St
+1011[3380.5,103.5,-23.6] JuctionTo_Shape033_5_1_Ed
+
+123 JuctionFrom_Shape033_5_2_St edgeId_Shape033_5_2_St
+456 JuctionTo_Shape033_5_2_Ed edgeId_Shape033_5_2_St
+[3426.6,107.6,-23.4] edgeId_Shape033_5_2_St
+789[3426.6,107.6,-23.4] JuctionFrom_Shape033_5_2_St
+1011[3378.4,107.1,-23.6] JuctionTo_Shape033_5_2_Ed
+
+123 JuctionFrom_Shape033_5_3_St edgeId_Shape033_5_3_St
+456 JuctionTo_Shape033_5_3_Ed edgeId_Shape033_5_3_St
+[3425.7,111,-23.4] edgeId_Shape033_5_3_St
+789[3425.7,111,-23.4] JuctionFrom_Shape033_5_3_St
+1011[3378.5,110.5,-23.6] JuctionTo_Shape033_5_3_Ed
+
+123 JuctionFrom_Shape029_6_1_St edgeId_Shape029_6_1_St
+456 JuctionTo_Shape029_6_1_Ed edgeId_Shape029_6_1_St
+[3445.1,88.3,-23.4] edgeId_Shape029_6_1_St
+789[3445.1,88.3,-23.4] JuctionFrom_Shape029_6_1_St
+1011[3444.5,37.7,-23.4] JuctionTo_Shape029_6_1_Ed
+
+123 JuctionFrom_Shape029_6_2_St edgeId_Shape029_6_2_St
+456 JuctionTo_Shape029_6_2_Ed edgeId_Shape029_6_2_St
+[3441.4,88.3,-23.4] edgeId_Shape029_6_2_St
+789[3441.4,88.3,-23.4] JuctionFrom_Shape029_6_2_St
+1011[3441,38.8,-23.4] JuctionTo_Shape029_6_2_Ed
+
+123 JuctionFrom_Shape029_6_3_St edgeId_Shape029_6_3_St
+456 JuctionTo_Shape029_6_3_Ed edgeId_Shape029_6_3_St
+[3437.6,88.3,-23.4] edgeId_Shape029_6_3_St
+789[3437.6,88.3,-23.4] JuctionFrom_Shape029_6_3_St
+1011[3437.5,38.3,-23.4] JuctionTo_Shape029_6_3_Ed
+
+123 JuctionFrom_Shape029_6_4_St edgeId_Shape029_6_4_St
+456 JuctionTo_Shape029_6_4_Ed edgeId_Shape029_6_4_St
+[3434.6,88.2,-23.4] edgeId_Shape029_6_4_St
+789[3434.6,88.2,-23.4] JuctionFrom_Shape029_6_4_St
+1011[3434.5,38.2,-23.4] JuctionTo_Shape029_6_4_Ed
+
+<edge id="edgeId_Shape007_1_St" from="_JuctionFrom_Shape007_1" to="_JuctionTo_Shape007_1_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape007_1_1_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="227.055" shape="3519.22,114.591,-23.7029 3514.22,114.608,-23.6534 3509.22,114.635,-23.6089 3504.22,114.654,-23.5551 3499.22,114.637,-23.5105 3494.22,114.624,-23.4661 3489.22,114.642,-23.4297 3484.22,114.689,-23.4199 3479.22,114.76,-23.4199 3472.17,115.001,-23.4199 "/>
+<lane id="laneId_Shape007_1_1_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="227.211" shape="3519.24,110.69,-23.7238 3514.24,110.767,-23.6743 3509.24,110.843,-23.6294 3504.24,110.92,-23.552 3499.24,110.996,-23.5077 3494.24,111.073,-23.4633 3489.24,111.149,-23.4305 3484.24,111.226,-23.4199 3479.24,111.302,-23.42 3472.02,111.342,-23.4199 "/>
+<lane id="laneId_Shape007_1_1_3" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="227.206" shape="3519.24,107.215,-23.7427 3514.24,107.303,-23.6931 3509.24,107.391,-23.6456 3504.24,107.479,-23.549 3499.24,107.567,-23.5049 3494.24,107.654,-23.4615 3489.24,107.718,-23.4313 3484.24,107.718,-23.42 3479.25,107.722,-23.4199 3472.03,107.726,-23.4199 "/>
+<lane id="laneId_Shape007_1_1_4" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="227.868" shape="3520.01,103.292,-23.7737 3515.01,103.339,-23.7212 3510.01,103.385,-23.6693 3505.01,103.431,-23.5857 3500.01,103.478,-23.5083 3495.01,103.524,-23.4673 3490.01,103.57,-23.4358 3485.01,103.61,-23.4199 3480.01,103.639,-23.4199 3472.14,103.668,-23.4199 "/>
+<lane id="laneId_Shape007_1_1_5" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="225.353" shape="3517.79,97.9559,-23.7755 3512.83,98.5914,-23.7207 3507.86,99.0925,-23.6578 3502.87,99.4495,-23.5299 3497.88,99.6946,-23.4871 3492.88,99.8519,-23.4541 3487.88,99.921,-23.4248 3482.88,99.8937,-23.42 3477.88,99.8383,-23.4199 3472.35,99.8372,-23.4199 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape007_1" type="dead_end" x="3517.79" y="97.9559" z="-23.7755" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape007_1_Ed" type="dead_end" x="3472.35" y="99.8372" z="-23.4199" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+
+<edge id="edgeId_Shape024_2_St" from="_JuctionFrom_Shape024_2" to="_JuctionTo_Shape024_2_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape024_2_2_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="273.393" shape="3462.69,40.5568,-23.4199 3462.66,45.5566,-23.4199 3462.64,50.5566,-23.4199 3462.62,55.5565,-23.4199 3462.61,60.5563,-23.4199 3462.59,65.5562,-23.4199 3462.57,70.556,-23.4199 3462.55,75.5559,-23.4199 3462.54,80.5558,-23.4199 3462.52,85.5557,-23.4199 3462.43,88.9522,-23.4199 "/>
+<lane id="laneId_Shape024_2_2_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="273.444" shape="3459.46,40.5873,-23.4199 3459.44,45.5872,-23.4199 3459.42,50.5871,-23.4199 3459.4,55.587,-23.4199 3459.38,60.5868,-23.4199 3459.36,65.5866,-23.4199 3459.35,70.5864,-23.4199 3459.33,75.5862,-23.4199 3459.31,80.586,-23.4199 3459.29,85.5858,-23.42 3459.25,89.0368,-23.4199 "/>
+<lane id="laneId_Shape024_2_2_3" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="277.792" shape="3455.28,36.0449,-23.4199 3455.27,41.0446,-23.4199 3455.26,46.0444,-23.4199 3455.25,51.0444,-23.4199 3455.24,56.0441,-23.4199 3455.22,61.0438,-23.4199 3455.2,66.0435,-23.4199 3455.19,71.0432,-23.4199 3455.18,76.043,-23.4199 3455.16,81.0427,-23.4199 3455.2,88.8463,-23.4198 "/>
+<lane id="laneId_Shape024_2_2_4" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="277.684" shape="3451.45,36.1345,-23.4199 3451.48,41.1342,-23.4199 3451.5,46.1339,-23.4199 3451.53,51.1336,-23.4199 3451.55,56.1334,-23.4199 3451.57,61.1332,-23.4199 3451.58,66.1331,-23.4199 3451.58,71.133,-23.4199 3451.57,76.1329,-23.4199 3451.53,81.1328,-23.4199 3451.46,88.8271,-23.4198 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape024_2" type="dead_end" x="3451.45" y="36.1345" z="-23.4199" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape024_2_Ed" type="dead_end" x="3451.46" y="88.8271" z="-23.4198" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+
+<edge id="edgeId_Shape031_3_St" from="_JuctionFrom_Shape031_3" to="_JuctionTo_Shape031_3_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape031_3_3_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="132.664" shape="3446.9,156.72,-23.4199 3446.75,152.702,-23.4199 3446.59,147.705,-23.4199 3446.5,142.706,-23.4199 3446.45,137.707,-23.4199 3446.36,132.708,-23.4199 3446.25,127.709,-23.4198 3446.13,123.182,-23.4198 "/>
+<lane id="laneId_Shape031_3_3_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="105.718" shape="3443.13,153.824,-23.4199 3443.08,148.824,-23.4199 3443.02,143.825,-23.4199 3442.94,138.826,-23.4199 3442.87,133.826,-23.4199 3442.79,128.828,-23.4199 3442.76,123.103,-23.4199 "/>
+<lane id="laneId_Shape031_3_3_3" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="106.433" shape="3439.39,154.312,-23.4199 3439.36,149.312,-23.4199 3439.33,144.312,-23.4199 3439.29,139.312,-23.4199 3439.27,134.312,-23.4199 3439.26,129.312,-23.4199 3439.17,122.878,-23.42 "/>
+<lane id="laneId_Shape031_3_3_4" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="78.0101" shape="3435.12,150.959,-23.42 3435.49,145.973,-23.4199 3435.91,140.991,-23.4199 3436.03,135.999,-23.4199 3435.87,131.0,-23.42 3435.7,122.916,-23.4199 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape031_3" type="dead_end" x="3435.12" y="150.959" z="-23.42" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape031_3_Ed" type="dead_end" x="3435.7" y="122.916" z="-23.4199" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+
+<edge id="edgeId_Shape023_4_St" from="_JuctionFrom_Shape023_4" to="_JuctionTo_Shape023_4_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape023_4_4_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="156.172" shape="3461.45,122.89,-23.4199 3461.14,130.719,-23.42 3461.11,135.719,-23.4199 3461.09,140.719,-23.4199 3461.06,145.719,-23.4199 3461.03,150.719,-23.4199 3461.01,155.719,-23.4199 3461.0,157.065,-23.4199 "/>
+<lane id="laneId_Shape023_4_4_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="124.535" shape="3458.61,122.46,-23.4199 3458.52,130.578,-23.4199 3458.43,135.577,-23.4199 3458.34,140.576,-23.4199 3458.25,145.575,-23.4199 3458.15,150.574,-23.4199 3458.04,156.401,-23.4199 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape023_4" type="dead_end" x="3458.61" y="122.46" z="-23.4199" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape023_4_Ed" type="dead_end" x="3458.04" y="156.401" z="-23.4199" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+
+<edge id="edgeId_Shape033_5_St" from="_JuctionFrom_Shape033_5" to="_JuctionTo_Shape033_5_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape033_5_5_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="239.327" shape="3426.82,103.972,-23.4199 3419.66,103.976,-23.4218 3414.66,103.976,-23.4335 3409.66,103.972,-23.4672 3405.51,103.954,-23.4952 3400.51,103.923,-23.5289 3395.51,103.856,-23.5625 3390.51,103.758,-23.5961 3385.51,103.653,-23.6299 3380.51,103.562,-23.6636 "/>
+<lane id="laneId_Shape033_5_5_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="232.387" shape="3426.65,107.656,-23.4417 3408.45,107.602,-23.4753 3403.45,107.551,-23.5089 3398.45,107.51,-23.5427 3393.45,107.461,-23.5764 3388.45,107.391,-23.61 3383.45,107.304,-23.6437 3378.46,107.181,-23.6773 "/>
+<lane id="laneId_Shape033_5_5_3" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="237.352" shape="3425.71,111.057,-23.4271 3413.54,110.749,-23.441 3408.54,110.709,-23.4747 3403.54,110.672,-23.5084 3398.54,110.64,-23.5421 3393.55,110.611,-23.5757 3388.55,110.586,-23.6094 3383.55,110.566,-23.6431 3378.55,110.553,-23.6768 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape033_5" type="dead_end" x="3425.71" y="111.057" z="-23.4271" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape033_5_Ed" type="dead_end" x="3378.55" y="110.553" z="-23.6768" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+
+<edge id="edgeId_Shape029_6_St" from="_JuctionFrom_Shape029_6" to="_JuctionTo_Shape029_6_Ed" priority="14" type="highway.motorway" spreadType="center" >
+<lane id="laneId_Shape029_6_6_1" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="281.647" shape="3445.1,88.3994,-23.4198 3444.92,82.7346,-23.4198 3444.78,77.737,-23.4199 3444.7,72.7379,-23.4199 3444.66,67.7385,-23.4199 3444.64,62.7386,-23.4199 3444.65,57.7388,-23.4199 3444.66,52.7389,-23.4199 3444.66,47.739,-23.4199 3444.61,42.7395,-23.4199 3444.55,37.7402,-23.42 "/>
+<lane id="laneId_Shape029_6_6_2" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="269.829" shape="3441.43,88.3443,-23.4199 3441.29,83.8588,-23.4199 3441.18,78.8601,-23.4199 3441.12,73.8618,-23.4199 3441.08,68.8629,-23.4199 3441.05,63.8636,-23.4199 3441.04,58.8641,-23.4199 3441.03,53.8655,-23.4199 3441.03,48.8666,-23.4199 3441.04,43.8674,-23.4199 3441.04,38.8678,-23.4199 "/>
+<lane id="laneId_Shape029_6_6_3" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="274.995" shape="3437.65,88.3754,-23.4199 3437.64,83.3755,-23.4199 3437.63,78.3756,-23.4199 3437.62,73.3757,-23.4199 3437.61,68.3758,-23.4199 3437.6,63.3759,-23.42 3437.59,58.376,-23.4199 3437.58,53.3762,-23.42 3437.58,48.3763,-23.42 3437.57,43.3765,-23.42 3437.56,38.3766,-23.42 "/>
+<lane id="laneId_Shape029_6_6_4" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"   speed="18.06" length="274.996" shape="3434.61,88.2872,-23.4198 3434.59,83.2874,-23.4199 3434.59,78.2875,-23.42 3434.59,73.2875,-23.42 3434.59,68.2876,-23.42 3434.59,63.2877,-23.42 3434.59,58.2878,-23.42 3434.59,53.2878,-23.42 3434.59,48.2878,-23.42 3434.59,43.2878,-23.42 3434.59,38.2878,-23.42 "/>
+</edge>
+
+<junction id="_JuctionFrom_Shape029_6" type="dead_end" x="3434.61" y="88.2872" z="-23.4198" incLanes="" intLanes="" shape="0.32,281.31 -0.32,278.17"/>
+<junction id="_JuctionTo_Shape029_6_Ed" type="dead_end" x="3434.59" y="38.2878" z="-23.42" incLanes="undefined" intLanes="" shape="33159.65,9483.35 33158.48,9480.38"/>
+
+
+</net>

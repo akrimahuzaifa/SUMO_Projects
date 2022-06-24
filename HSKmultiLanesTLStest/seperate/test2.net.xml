@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-24 09:25:09 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\seperate\test2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\seperate\test2.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-274535.29,-4297431.43" convBoundary="3494.22,102.74,3579.21,114.62" origBoundary="-77.596256,38.797200,-77.215237,38.890060" projParameter="+proj=utm +zone=18 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <edge id="edgeId_Shape01_1_1_St" from="cluster_JuctionFrom_Shape01_1_1_St_JuctionFrom_Shape02_4_1_St_JuctionFrom_Shape04_2_1_St_JuctionFrom_Shape05_5_1_St" to="cluster_JuctionTo_Shape01_1_1_Ed_JuctionTo_Shape02_4_1_Ed_JuctionTo_Shape04_2_1_Ed_JuctionTo_Shape05_5_1_Ed" priority="14" type="highway.motorway" spreadType="center" shape="">
+        <lane id="edgeId_Shape01_1_1_St_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="18.06" length="84.85" shape="3579.21,102.74,-25.03 3494.37,103.53,-23.46"/>
+        <lane id="edgeId_Shape02_4_1_St_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="18.06" length="84.83" shape="3579.21,106.15,-25.03 3494.41,107.65,-23.46"/>
+        <lane id="edgeId_Shape04_2_1_St_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="18.06" length="84.80" shape="3579.26,113.88,-25.03 3494.47,114.62,-23.47"/>
+        <lane id="edgeId_Shape05_5_1_St_0" index="0" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2" speed="18.06" length="84.79" shape="3579.22,109.76,-25.03 3494.46,111.07,-23.46"/>
+    </edge>
+
+    <junction id="cluster_JuctionFrom_Shape01_1_1_St_JuctionFrom_Shape02_4_1_St_JuctionFrom_Shape04_2_1_St_JuctionFrom_Shape05_5_1_St" type="dead_end" x="3579.21" y="108.13" z="-25.03" incLanes="" intLanes="" shape=""/>
+    <junction id="cluster_JuctionTo_Shape01_1_1_Ed_JuctionTo_Shape02_4_1_Ed_JuctionTo_Shape04_2_1_Ed_JuctionTo_Shape05_5_1_Ed" type="dead_end" x="3494.43" y="109.22" z="-23.47" incLanes="edgeId_Shape04_2_1_St_0 edgeId_Shape05_5_1_St_0 edgeId_Shape02_4_1_St_0 edgeId_Shape01_1_1_St_0" intLanes="" shape=""/>
+
+</net>
