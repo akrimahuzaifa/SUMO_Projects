@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-06-22 15:30:43 by Eclipse SUMO netedit Version 1.10.0
+<!-- generated on 2022-06-27 09:32:10 by Eclipse SUMO netedit Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -29,10 +29,6 @@
     <pedestrian>
         <walkingareas value="false"/>
     </pedestrian>
-
-    <netedit>
-        <route-files value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\shaz.rou.xml"/>
-    </netedit>
 
     <report>
         <aggregate-warnings value="5"/>
@@ -220,7 +216,14 @@
         <request index="0" response="0" foes="0"/>
     </junction>
     <junction id="j0" type="dead_end" x="3545.75" y="106.40" z="-24.18" incLanes="" intLanes="" shape="3545.65,96.11,-24.18 3545.68,99.31,-24.18 3545.63,98.40,-24.18 3545.87,114.40,-24.18"/>
-    <junction id="j1" type="dead_end" x="3472.23" y="107.51" z="-21.86" incLanes="e1_0 e1_1 e1_2 e1_3 e1_4" intLanes="" shape="3483.39,115.34,-21.86 3483.15,99.34,-21.86 3474.79,99.51,-21.86 3468.30,99.41,-21.86 3462.98,98.63,-21.86 3458.10,96.72,-21.86 3452.94,93.25,-21.86 3446.80,87.79,-21.86 3445.52,98.74,-21.86 3446.17,100.68,-21.86 3446.00,101.36,-21.86 3445.50,101.85,-21.86 3444.66,102.14,-21.86 3443.50,102.25,-21.86 3443.43,112.77,-21.86 3450.95,112.82,-21.86 3457.99,112.91,-21.86 3464.01,113.02,-21.86 3468.50,113.18,-21.86 3470.92,113.38,-21.86 3470.74,113.63,-21.86 3471.28,116.78,-21.86 3473.84,116.33,-21.86 3475.74,115.97,-21.86 3477.30,115.71,-21.86 3478.88,115.53,-21.86 3480.79,115.41,-21.86"/>
+    <junction id="j1" type="priority" x="3472.23" y="107.51" z="-21.86" incLanes="e1_0 e1_1 e1_2 e1_3 e1_4" intLanes="" shape="3483.39,115.34,-21.86 3483.15,99.34,-21.86 3474.79,99.51,-21.86 3468.30,99.41,-21.86 3462.98,98.63,-21.86 3458.10,96.72,-21.86 3452.94,93.25,-21.86 3446.80,87.79,-21.86 3445.52,98.74,-21.86 3446.17,100.68,-21.86 3446.00,101.36,-21.86 3445.50,101.85,-21.86 3444.66,102.14,-21.86 3443.50,102.25,-21.86 3443.43,112.77,-21.86 3450.95,112.82,-21.86 3457.99,112.91,-21.86 3464.01,113.02,-21.86 3468.50,113.18,-21.86 3470.92,113.38,-21.86 3470.74,113.63,-21.86 3471.28,116.78,-21.86 3473.84,116.33,-21.86 3475.74,115.97,-21.86 3477.30,115.71,-21.86 3478.88,115.53,-21.86 3480.79,115.41,-21.86">
+        <request index="0" response="000000" foes="000000"/>
+        <request index="1" response="000000" foes="000000"/>
+        <request index="2" response="000000" foes="000000"/>
+        <request index="3" response="000000" foes="000000"/>
+        <request index="4" response="000000" foes="000000"/>
+        <request index="5" response="000000" foes="000000"/>
+    </junction>
     <junction id="j10" type="priority" x="3425.71" y="111.06" z="-23.43" incLanes="edgeId_Shape039_14_1_St_0" intLanes="" shape="3425.84,112.66,-23.43 3425.86,109.46,-23.43 3425.61,109.46,-23.43 3425.53,112.66,-23.43">
         <request index="0" response="0" foes="0"/>
     </junction>
@@ -234,6 +237,12 @@
         <request index="0" response="0" foes="0"/>
     </junction>
 
+    <connection from="e1" to="edgeId_Shape045_24_1_St" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from="e1" to="edgeId_Shape039_14_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from="e1" to="edgeId_Shape037_10_1_St" fromLane="1" toLane="0" dir="s" state="M"/>
+    <connection from="e1" to="edgeId_Shape035_28_1_St" fromLane="2" toLane="0" dir="s" state="M"/>
+    <connection from="e1" to="edgeId_Shape036_11_1_St" fromLane="3" toLane="0" dir="s" state="M"/>
+    <connection from="e1" to="edgeId_Shape033_34_1_St" fromLane="4" toLane="0" dir="s" state="M"/>
     <connection from="e2" to="e3" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape011_1_1_St" to="edgeId_Shape041_9_1_St" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from="edgeId_Shape015_6_1_St" to="edgeId_Shape044_12_1_St" fromLane="0" toLane="0" dir="s" state="M"/>

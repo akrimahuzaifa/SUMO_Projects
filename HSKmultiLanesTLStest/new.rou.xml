@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-27 16:45:02 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\new.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\HSKmultiLanesTLStest\new.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\@Tll_Training\SUMO_Projects\SumoLaneSeperateAndCombine\combine\new.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" departLane="0" departPos="6.00" from="e1" to="edgeId_Shape018_25_1_St" via="edgeId_Shape025_5_1_St edgeId_Shape017_26_1_St"/>
+    <flow id="flow_0" begin="0.00" from="e1" to="edgeId_Shape002_33_1_St" via="edgeId_Shape021_12_1_St" end="3600.00" number="1800"/>
+    <flow id="flow_1" begin="0.00" departLane="1" from="e1" to="edgeId_Shape016_35_1_St" via="edgeId_Shape023_11_1_St" end="3600.00" number="1800"/>
+    <flow id="flow_2" begin="0.00" departLane="2" from="e1" to="edgeId_Shape015_40_1_St" via="edgeId_Shape024_6_1_St" end="3600.00" number="1800"/>
+    <flow id="flow_3" begin="0.00" departLane="3" from="e1" to="edgeId_Shape018_25_1_St" via="edgeId_Shape025_5_1_St edgeId_Shape017_26_1_St" end="3600.00" number="1800"/>
+    <flow id="flow_4" begin="0.00" departLane="0" from="edgeId_Shape005_28_1_St" to="edgeId_Shape006_37_1_St" via="edgeId_Shape004_1_1_St edgeId_Shape022_29_1_St" end="3600.00" number="1800"/>
+</routes>
