@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-06-30 14:32:10 by Eclipse SUMO netedit Version 1.10.0
+<!-- generated on 2022-07-01 16:24:59 by Eclipse SUMO netedit Version 1.10.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\@TLL_Projects\Rocket_ODD%203D%20Environment\Assets\StreamingAssets\Simulation%20Data\SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <sumo-net-file value="D:\@Tll_Training\SUMO_Projects\TLS-LinkIndex\SplineXMLForSUMOTrafficLanes.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\@TLL_Projects\Rocket_ODD%203D%20Environment\Assets\StreamingAssets\Simulation%20Data\SplineXMLForSUMOTrafficLanes.net.xml"/>
+        <output-file value="D:\@Tll_Training\SUMO_Projects\TLS-LinkIndex\SplineXMLForSUMOTrafficLanes.net.xml"/>
     </output>
 
     <processing>
@@ -2756,7 +2756,21 @@
         <phase duration="4"  state="rrg"/>
         <phase duration="4"  state="rry"/>
     </tlLogic>
-    <tlLogic id="Round2" type="static" programID="0" offset="0">
+    <tlLogic id="Round10" type="static" programID="0" offset="0">
+        <phase duration="4"  state="rrr"/>
+        <phase duration="4"  state="yrr"/>
+        <phase duration="4"  state="grr"/>
+        <phase duration="4"  state="yrr"/>
+        <phase duration="4"  state="rrr"/>
+        <phase duration="4"  state="ryr"/>
+        <phase duration="4"  state="rgr"/>
+        <phase duration="4"  state="ryr"/>
+        <phase duration="4"  state="rrr"/>
+        <phase duration="4"  state="rry"/>
+        <phase duration="4"  state="rrg"/>
+        <phase duration="4"  state="rry"/>
+    </tlLogic>
+    <tlLogic id="Round11" type="static" programID="0" offset="0">
         <phase duration="4"  state="rrr"/>
         <phase duration="4"  state="yrr"/>
         <phase duration="4"  state="grr"/>
@@ -2872,33 +2886,19 @@
         <phase duration="4"  state="rrg"/>
         <phase duration="4"  state="rry"/>
     </tlLogic>
-    <tlLogic id="Round10" type="static" programID="0" offset="0">
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="yrr"/>
-        <phase duration="4"  state="grr"/>
-        <phase duration="4"  state="yrr"/>
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="ryr"/>
-        <phase duration="4"  state="rgr"/>
-        <phase duration="4"  state="ryr"/>
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="rry"/>
-        <phase duration="4"  state="rrg"/>
-        <phase duration="4"  state="rry"/>
-    </tlLogic>
-    <tlLogic id="Round11" type="static" programID="0" offset="0">
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="yrr"/>
-        <phase duration="4"  state="grr"/>
-        <phase duration="4"  state="yrr"/>
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="ryr"/>
-        <phase duration="4"  state="rgr"/>
-        <phase duration="4"  state="ryr"/>
-        <phase duration="4"  state="rrr"/>
-        <phase duration="4"  state="rry"/>
-        <phase duration="4"  state="rrg"/>
-        <phase duration="4"  state="rry"/>
+    <tlLogic id="test2" type="static" programID="0" offset="0">
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
+        <phase duration="11" state="GGGGGGGGGGGGG"/>
+        <phase duration="4"  state="yyyyyyyyyyyyy"/>
     </tlLogic>
 
     <junction id="JuctionFrom_Shape002_1_1_St" type="dead_end" x="-3542.73" y="-831.11" z="-9.24" incLanes="" intLanes="" shape="-3544.33,-831.15,-9.24 -3541.13,-831.07,-9.24"/>
@@ -4444,7 +4444,7 @@
     <connection from="edgeId_Shape348_347_1_St" to="edgeId_Shape368_363_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape351_287_1_St-JuctionTo_Shape348_347_1_Ed-JuctionFrom_Shape349_348_1_St-JuctionFrom_Shape368_363_1_St_0_0" dir="s" state="M"/>
     <connection from="edgeId_Shape348_347_1_St" to="edgeId_Shape349_348_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape351_287_1_St-JuctionTo_Shape348_347_1_Ed-JuctionFrom_Shape349_348_1_St-JuctionFrom_Shape368_363_1_St_1_0" dir="s" state="M"/>
     <connection from="edgeId_Shape348_347_1_St" to="edgeId_Shape351_287_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape351_287_1_St-JuctionTo_Shape348_347_1_Ed-JuctionFrom_Shape349_348_1_St-JuctionFrom_Shape368_363_1_St_2_0" dir="s" state="M"/>
-    <connection from="edgeId_Shape349_348_1_St" to="edgeId_Shape378_375_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape349_348_1_Ed-JuctionFrom_Shape378_375_1_St_0_0" tl="Round2" linkIndex="1" dir="s" state="O"/>
+    <connection from="edgeId_Shape349_348_1_St" to="edgeId_Shape378_375_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape349_348_1_Ed-JuctionFrom_Shape378_375_1_St_0_0" tl="test2" linkIndex="2" dir="s" state="O"/>
     <connection from="edgeId_Shape350_351_1_St" to="edgeId_Shape317_349_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape317_349_1_St-JuctionTo_Shape350_351_1_Ed_0_0" dir="s" state="M"/>
     <connection from="edgeId_Shape351_287_1_St" to="edgeId_Shape350_351_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape351_287_1_Ed-JuctionFrom_Shape350_351_1_St-JuctionTo_Shape352_358_1_Ed_1_0" dir="s" state="m"/>
     <connection from="edgeId_Shape352_358_1_St" to="edgeId_Shape350_351_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape351_287_1_Ed-JuctionFrom_Shape350_351_1_St-JuctionTo_Shape352_358_1_Ed_0_0" dir="s" state="M"/>
@@ -4463,8 +4463,8 @@
     <connection from="edgeId_Shape365_364_1_St" to="edgeId_Shape075_362_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape075_362_1_St-JuctionTo_Shape365_364_1_Ed_0_0" dir="s" state="M"/>
     <connection from="edgeId_Shape366_71_1_St" to="edgeId_Shape365_364_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape366_71_1_Ed-JuctionFrom_Shape365_364_1_St-JuctionTo_Shape367_365_1_Ed_1_0" dir="s" state="m"/>
     <connection from="edgeId_Shape367_365_1_St" to="edgeId_Shape365_364_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape366_71_1_Ed-JuctionFrom_Shape365_364_1_St-JuctionTo_Shape367_365_1_Ed_0_0" dir="s" state="M"/>
-    <connection from="edgeId_Shape368_363_1_St" to="edgeId_Shape367_365_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape368_363_1_Ed-JuctionFrom_Shape367_365_1_St-JuctionFrom_Shape369_366_1_St_0_0" tl="Round2" linkIndex="1" dir="s" state="O"/>
-    <connection from="edgeId_Shape368_363_1_St" to="edgeId_Shape369_366_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape368_363_1_Ed-JuctionFrom_Shape367_365_1_St-JuctionFrom_Shape369_366_1_St_1_0" tl="Round2" linkIndex="1" dir="s" state="O"/>
+    <connection from="edgeId_Shape368_363_1_St" to="edgeId_Shape367_365_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape368_363_1_Ed-JuctionFrom_Shape367_365_1_St-JuctionFrom_Shape369_366_1_St_0_0" tl="test2" linkIndex="3" dir="s" state="O"/>
+    <connection from="edgeId_Shape368_363_1_St" to="edgeId_Shape369_366_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape368_363_1_Ed-JuctionFrom_Shape367_365_1_St-JuctionFrom_Shape369_366_1_St_1_0" tl="test2" linkIndex="4" dir="s" state="O"/>
     <connection from="edgeId_Shape369_366_1_St" to="edgeId_Shape392_368_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape369_366_1_Ed-JuctionFrom_Shape392_368_1_St-JuctionTo_Shape370_376_1_Ed_1_0" dir="s" state="m"/>
     <connection from="edgeId_Shape370_376_1_St" to="edgeId_Shape392_368_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape369_366_1_Ed-JuctionFrom_Shape392_368_1_St-JuctionTo_Shape370_376_1_Ed_0_0" dir="s" state="M"/>
     <connection from="edgeId_Shape371_389_1_St" to="edgeId_Shape372_374_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape377_369_1_Ed-JuctionFrom_Shape372_374_1_St-JuctionTo_Shape371_389_1_Ed_1_0" dir="s" state="m"/>
@@ -4475,16 +4475,16 @@
     <connection from="edgeId_Shape376_356_1_St" to="edgeId_Shape353_373_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape376_356_1_Ed-JuctionFrom_Shape353_373_1_St-JuctionTo_Shape357_388_1_Ed-JuctionTo_Shape356_391_1_Ed_1_0" dir="s" state="m"/>
     <connection from="edgeId_Shape377_369_1_St" to="edgeId_Shape372_374_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape377_369_1_Ed-JuctionFrom_Shape372_374_1_St-JuctionTo_Shape371_389_1_Ed_0_0" dir="s" state="M"/>
     <connection from="edgeId_Shape378_375_1_St" to="edgeId_Shape394_310_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape394_310_1_St-JuctionTo_Shape378_375_1_Ed-JuctionTo_Shape339_378_1_Ed_1_0" dir="s" state="m"/>
-    <connection from="edgeId_Shape379_367_1_St" to="edgeId_Shape370_376_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape379_367_1_Ed-JuctionFrom_Shape370_376_1_St_0_0" tl="Round2" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape380_337_1_St" to="edgeId_Shape338_377_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape380_337_1_Ed-JuctionFrom_Shape338_377_1_St_0_0" tl="Round2" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape381_338_1_St" to="edgeId_Shape339_378_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape381_338_1_Ed-JuctionFrom_Shape339_378_1_St_0_0" tl="Round2" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape382_379_1_St" to="edgeId_Shape395_354_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape395_354_1_St-JuctionTo_Shape382_379_1_Ed_0_0" tl="Round2" linkIndex="0" dir="s" state="O"/>
-    <connection from="edgeId_Shape383_339_1_St" to="edgeId_Shape340_380_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape383_339_1_Ed-JuctionFrom_Shape340_380_1_St_0_0" tl="Round2" linkIndex="1" dir="s" state="O"/>
-    <connection from="edgeId_Shape384_341_1_St" to="edgeId_Shape342_381_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape384_341_1_Ed-JuctionFrom_Shape342_381_1_St_0_0" tl="Round2" linkIndex="1" dir="s" state="O"/>
-    <connection from="edgeId_Shape386_383_1_St" to="edgeId_Shape461_66_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape461_66_1_St-JuctionTo_Shape386_383_1_Ed_0_0" tl="Round2" linkIndex="2" dir="s" state="O"/>
-    <connection from="edgeId_Shape387_344_1_St" to="edgeId_Shape346_346_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape387_344_1_Ed-JuctionFrom_Shape346_346_1_St-JuctionFrom_Shape347_384_1_St_0_0" tl="Round2" linkIndex="2" dir="s" state="O"/>
-    <connection from="edgeId_Shape387_344_1_St" to="edgeId_Shape347_384_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape387_344_1_Ed-JuctionFrom_Shape346_346_1_St-JuctionFrom_Shape347_384_1_St_1_0" tl="Round2" linkIndex="2" dir="L" state="O"/>
-    <connection from="edgeId_Shape388_343_1_St" to="edgeId_Shape345_385_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape388_343_1_Ed-JuctionFrom_Shape345_385_1_St_0_0" tl="Round2" linkIndex="2" dir="s" state="O"/>
+    <connection from="edgeId_Shape379_367_1_St" to="edgeId_Shape370_376_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape379_367_1_Ed-JuctionFrom_Shape370_376_1_St_0_0" tl="test2" linkIndex="5" dir="s" state="O"/>
+    <connection from="edgeId_Shape380_337_1_St" to="edgeId_Shape338_377_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape380_337_1_Ed-JuctionFrom_Shape338_377_1_St_0_0" tl="test2" linkIndex="6" dir="s" state="O"/>
+    <connection from="edgeId_Shape381_338_1_St" to="edgeId_Shape339_378_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape381_338_1_Ed-JuctionFrom_Shape339_378_1_St_0_0" tl="test2" linkIndex="7" dir="s" state="O"/>
+    <connection from="edgeId_Shape382_379_1_St" to="edgeId_Shape395_354_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape395_354_1_St-JuctionTo_Shape382_379_1_Ed_0_0" tl="test2" linkIndex="0" dir="s" state="O"/>
+    <connection from="edgeId_Shape383_339_1_St" to="edgeId_Shape340_380_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape383_339_1_Ed-JuctionFrom_Shape340_380_1_St_0_0" tl="test2" linkIndex="8" dir="s" state="O"/>
+    <connection from="edgeId_Shape384_341_1_St" to="edgeId_Shape342_381_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape384_341_1_Ed-JuctionFrom_Shape342_381_1_St_0_0" tl="test2" linkIndex="9" dir="s" state="O"/>
+    <connection from="edgeId_Shape386_383_1_St" to="edgeId_Shape461_66_1_St" fromLane="0" toLane="0" via=":JuctionFrom_Shape461_66_1_St-JuctionTo_Shape386_383_1_Ed_0_0" tl="test2" linkIndex="1" dir="s" state="O"/>
+    <connection from="edgeId_Shape387_344_1_St" to="edgeId_Shape346_346_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape387_344_1_Ed-JuctionFrom_Shape346_346_1_St-JuctionFrom_Shape347_384_1_St_0_0" tl="test2" linkIndex="10" dir="s" state="O"/>
+    <connection from="edgeId_Shape387_344_1_St" to="edgeId_Shape347_384_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape387_344_1_Ed-JuctionFrom_Shape346_346_1_St-JuctionFrom_Shape347_384_1_St_1_0" tl="test2" linkIndex="11" dir="L" state="O"/>
+    <connection from="edgeId_Shape388_343_1_St" to="edgeId_Shape345_385_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape388_343_1_Ed-JuctionFrom_Shape345_385_1_St_0_0" tl="test2" linkIndex="12" dir="s" state="O"/>
     <connection from="edgeId_Shape389_360_1_St" to="edgeId_Shape362_386_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape389_360_1_Ed-JuctionFrom_Shape362_386_1_St_0_0" tl="Round1" linkIndex="1" dir="s" state="O"/>
     <connection from="edgeId_Shape390_359_1_St" to="edgeId_Shape361_387_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape390_359_1_Ed-JuctionFrom_Shape361_387_1_St_0_0" tl="Round1" linkIndex="1" dir="s" state="O"/>
     <connection from="edgeId_Shape391_355_1_St" to="edgeId_Shape357_388_1_St" fromLane="0" toLane="0" via=":JuctionTo_Shape391_355_1_Ed-JuctionFrom_Shape357_388_1_St_0_0" tl="Round1" linkIndex="1" dir="s" state="O"/>
