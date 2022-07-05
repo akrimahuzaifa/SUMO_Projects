@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<trip id="0" depart="0.00" from="edgeId_Shape460_1_1_St" to="edgeId_Shape460_1_1_St"/>
+	<trip id="1" depart="1.00" from="edgeId_Shape093_3_1_St" to="edgeId_Shape375_52_1_St"/>
+	<trip id="2" depart="2.00" from="edgeId_Shape094_4_1_St" to="edgeId_Shape385_53_1_St"/>
+	<trip id="3" depart="3.00" from="edgeId_Shape091_5_1_St" to="edgeId_Shape372_57_1_St" via="edgeId_Shape377_28_1_St "/>
+	<trip id="4" depart="4.00" from="edgeId_Shape092_6_1_St" to="edgeId_Shape376_15_1_St"/>
+	<trip id="5" depart="5.00" from="edgeId_Shape095_7_1_St" to="edgeId_Shape352_17_1_St" via="edgeId_Shape374_12_1_St "/>
+	<trip id="6" depart="6.00" from="edgeId_Shape095_7_1_St" to="edgeId_Shape344_40_1_St" via="edgeId_Shape374_12_1_St edgeId_Shape360_16_1_St edgeId_Shape388_18_1_St edgeId_Shape345_54_1_St "/>
+	<trip id="7" depart="7.00" from="edgeId_Shape389_8_1_St" to="edgeId_Shape347_51_1_St" via="edgeId_Shape362_27_1_St edgeId_Shape387_60_1_St "/>
+	<trip id="8" depart="8.00" from="edgeId_Shape389_8_1_St" to="edgeId_Shape344_40_1_St" via="edgeId_Shape362_27_1_St edgeId_Shape387_60_1_St edgeId_Shape346_42_1_St "/>
+	<trip id="9" depart="9.00" from="edgeId_Shape358_9_1_St" to="edgeId_Shape357_13_1_St" via="edgeId_Shape391_45_1_St "/>
+	<trip id="10" depart="10.00" from="edgeId_Shape358_9_1_St" to="edgeId_Shape344_40_1_St" via="edgeId_Shape390_34_1_St edgeId_Shape361_59_1_St edgeId_Shape388_18_1_St edgeId_Shape345_54_1_St "/>
+	<trip id="11" depart="11.00" from="edgeId_Shape380_20_1_St" to="edgeId_Shape337_58_1_St" via="edgeId_Shape338_25_1_St edgeId_Shape393_19_1_St "/>
+	<trip id="12" depart="12.00" from="edgeId_Shape381_21_1_St" to="edgeId_Shape356_48_1_St" via="edgeId_Shape339_55_1_St edgeId_Shape394_47_1_St "/>
+	<trip id="13" depart="13.00" from="edgeId_Shape340_22_1_St" to="edgeId_Shape343_38_1_St"/>
+	<trip id="14" depart="14.00" from="edgeId_Shape341_23_1_St" to="edgeId_Shape343_38_1_St" via="edgeId_Shape386_2_1_St edgeId_Shape461_33_1_St "/>
+	<trip id="15" depart="15.00" from="edgeId_Shape382_29_1_St" to="edgeId_Shape355_35_1_St" via="edgeId_Shape395_56_1_St "/>
+	<trip id="16" depart="16.00" from="edgeId_Shape379_32_1_St" to="edgeId_Shape372_57_1_St" via="edgeId_Shape370_50_1_St edgeId_Shape392_10_1_St edgeId_Shape371_49_1_St "/>
+</routes>

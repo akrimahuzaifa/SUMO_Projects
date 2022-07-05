@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<trip id="0" depart="0.00" from="edgeId_Shape389_1_1_St" to="edgeId_Shape387_33_1_St" via="edgeId_Shape362_2_1_St "/>
+	<trip id="1" depart="1.00" from="edgeId_Shape364_3_1_St" to="edgeId_Shape387_33_1_St" via="edgeId_Shape373_8_1_St "/>
+	<trip id="2" depart="2.00" from="edgeId_Shape395_4_1_St" to="edgeId_Shape355_31_1_St"/>
+	<trip id="3" depart="3.00" from="edgeId_Shape091_5_1_St" to="edgeId_Shape372_21_1_St" via="edgeId_Shape377_6_1_St "/>
+	<trip id="4" depart="4.00" from="edgeId_Shape093_7_1_St" to="edgeId_Shape375_17_1_St"/>
+	<trip id="5" depart="5.00" from="edgeId_Shape092_9_1_St" to="edgeId_Shape376_23_1_St"/>
+	<trip id="6" depart="6.00" from="edgeId_Shape095_10_1_St" to="edgeId_Shape388_29_1_St" via="edgeId_Shape374_11_1_St edgeId_Shape360_22_1_St "/>
+	<trip id="7" depart="7.00" from="edgeId_Shape095_10_1_St" to="edgeId_Shape352_15_1_St" via="edgeId_Shape374_11_1_St "/>
+	<trip id="8" depart="8.00" from="edgeId_Shape393_12_1_St" to="edgeId_Shape337_27_1_St"/>
+	<trip id="9" depart="9.00" from="edgeId_Shape392_14_1_St" to="edgeId_Shape372_21_1_St" via="edgeId_Shape371_18_1_St "/>
+	<trip id="10" depart="10.00" from="edgeId_Shape394_16_1_St" to="edgeId_Shape356_20_1_St"/>
+	<trip id="11" depart="11.00" from="edgeId_Shape341_19_1_St" to="edgeId_Shape386_24_1_St"/>
+	<trip id="12" depart="12.00" from="edgeId_Shape094_25_1_St" to="edgeId_Shape385_26_1_St"/>
+</routes>
